@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "DTFS - Digital Trade Facilitation System",
+  "short_name": "DTFS",
+  "description": "A comprehensive Progressive Web App for a Digital Trade Facilitation System.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://www.gstatic.com/images/branding/product/2x/web_developer_512dp.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://www.gstatic.com/images/branding/product/2x/web_developer_512dp.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

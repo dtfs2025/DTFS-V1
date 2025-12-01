@@ -1,0 +1,1348 @@
+
+{
+    "nav": {
+        "Dashboard": "Dashboard",
+        "Chat": "Chat",
+        "Document Wizard": "Document Wizard",
+        "Request Finance": "Request Finance",
+        "Marketplace": "Marketplace",
+        "Training": "Training",
+        "Wallet": "Wallet",
+        "Profile": "Profile",
+        "Product Management": "Product Management",
+        "Order Management": "Order Management",
+        "AI Product Recommendation": "AI Product Recs",
+        "Supplier Management": "Supplier Management",
+        "Order Placement": "Place Order",
+        "Quality Control": "Quality Control",
+        "Request Inspection": "Request Inspection",
+        "Contract Management": "Contract Management",
+        "Shipment Management": "Shipment Management",
+        "Route Planning": "Route Planning",
+        "Fleet Management": "Fleet Management",
+        "Logistics Documentation": "Logistics Docs",
+        "Communication": "Communication",
+        "Pricing & Quotes": "Pricing & Quotes",
+        "Insurance Management": "Insurance",
+        "Customs Clearance": "Customs Clearance",
+        "Client Management": "Client Management",
+        "Commission Tracking": "Commissions",
+        "Training Access": "Training Access",
+        "Local Support": "Local Support",
+        "Market Development": "Market Development",
+        "Basic Analytics": "Analytics",
+        "User Onboarding": "User Onboarding",
+        "User Management": "User Management",
+        "Role Management": "Role Management",
+        "System Configuration": "System Config",
+        "Content Moderation": "Content Moderation",
+        "Dispute Resolution": "Dispute Resolution",
+        "Financial Oversight": "Financial Oversight",
+        "Analytics Access": "Analytics Access",
+        "Security Management": "Security",
+        "Compliance Monitoring": "Compliance",
+        "System Maintenance": "Maintenance",
+        "ESG": "ESG Hub",
+        "Exporter": "Exporter",
+        "Buyer": "Buyer",
+        "Logistics": "Logistics",
+        "Agent": "Agent",
+        "Admin": "Admin",
+        "Guest": "Guest",
+        "GuestExporter": "Guest (Exporter View)",
+        "GuestBuyer": "Guest (Buyer View)",
+        "mainMenu": "Main Menu",
+        "menu": "Menu"
+    },
+    "header": {
+        "searchPlaceholder": "Search orders, products, users...",
+        "logout": "Logout",
+        "languages": {
+            "en": "English",
+            "fr": "Français",
+            "sw": "Kiswahili",
+            "ar": "العربية",
+            "pt": "Português",
+            "ha": "Hausa",
+            "yo": "Yorùbá",
+            "ig": "Igbo"
+        }
+    },
+    "login": {
+        "welcome": "Welcome to DTFS",
+        "continueWithPhone": "Continue with Phone",
+        "continueWith": "or continue with",
+        "alreadyMember": "Already a member? Log in",
+        "browseGuest": "Browse as Guest",
+        "logIn": "Log In",
+        "emailAddress": "Email Address",
+        "password": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot your password?",
+        "getStarted": "Get Started",
+        "phoneNumber": "Phone Number",
+        "sendCode": "Send Code",
+        "enterCode": "Enter Your Code",
+        "code": "6-digit code",
+        "verify": "Verify",
+        "register": {
+            "title": "Create Your Account",
+            "nameLabel": "Full Name",
+            "emailLabel": "Email Address",
+            "roleLabel": "I am a...",
+            "createButton": "Create Account",
+            "locationDetected": "It looks like you're in {{country}}. We can suggest relevant products."
+        },
+        "forgotPasswordTitle": "Forgot your password?",
+        "forgotPasswordDescription": "No worries, we'll send you reset instructions.",
+        "sendResetLink": "Send Reset Link",
+        "resetLinkSentTitle": "Check your email",
+        "resetLinkSentDescription": "We've sent a password reset link to {{email}}.",
+        "backToLogin": "Back to Log In",
+        "guestSelection": {
+            "title": "Choose Your Experience",
+            "description": "Select a role to preview the dashboard tailored to your needs.",
+            "exporter": "Exporter View",
+            "exporterDesc": "I want to sell products",
+            "importer": "Buyer View",
+            "importerDesc": "I want to source products",
+            "generic": "Just browsing (Generic Guest)"
+        }
+    },
+    "dashboard": {
+        "welcome": "Welcome back, {{name}}!",
+        "loggedInAs": "You are logged in as",
+        "title": "My Dashboard",
+        "quickActions": "Quick Actions",
+        "exporter": {
+            "title": "Exporter Dashboard",
+            "widgets": {
+                "activeListings": {
+                    "title": "Active Listings",
+                    "description": "{{count}} products are live"
+                },
+                "pendingOrders": {
+                    "title": "Pending Orders",
+                    "description": "{{count}} orders need attention"
+                },
+                "monthlyRevenue": {
+                    "title": "Monthly Revenue",
+                    "description": "{{amount}} this month"
+                },
+                "esgStatus": {
+                    "title": "ESG Status",
+                    "description": "Score: {{score}}/100 - Certified"
+                }
+            },
+            "quickActions": {
+                "addProduct": "Add New Product",
+                "viewOrders": "View Orders",
+                "requestFinance": "Request Finance",
+                "createDocument": "Create Document",
+                "checkWallet": "Check Wallet",
+                "openChat": "Open Chat",
+                "marketInsights": "Market Insights",
+                "training": "Training Hub"
+            },
+            "visibleProducts": {
+                "title": "Visible Products",
+                "addNewProduct": "Add New Product",
+                "noProductsTitle": "No Products Listed",
+                "noProductsDescription": "Add your first product to get started.",
+                "toggleAriaLabel": "Toggle visibility for {{name}}"
+            }
+        },
+        "buyer": {
+            "title": "Buyer Dashboard",
+            "widgets": {
+                "activeOrders": {
+                    "title": "Active Orders",
+                    "description": "{{count}} orders in progress"
+                },
+                "pendingInspections": {
+                    "title": "Pending Inspections",
+                    "description": "{{count}} orders awaiting QA"
+                },
+                "trustedSuppliers": {
+                    "title": "Trusted Suppliers",
+                    "description": "{{count}} preferred partners"
+                },
+                "inEscrow": {
+                    "title": "In Escrow",
+                    "description": "{{amount}} secured"
+                }
+            },
+            "quickActions": {
+                "discoverProducts": "Discover Products",
+                "placeOrder": "Place an Order",
+                "manageSuppliers": "Manage Suppliers",
+                "viewContracts": "View Contracts",
+                "requestInspection": "Request Inspection",
+                "openChat": "Open Chat"
+            }
+        },
+        "logistics": {
+            "title": "Logistics Dashboard",
+            "widgets": {
+                "inTransit": {
+                    "title": "In Transit",
+                    "description": "{{count}} shipments on the move"
+                },
+                "pendingPickup": {
+                    "title": "Pending Pickup",
+                    "description": "{{count}} shipments to collect"
+                },
+                "availableVehicles": {
+                    "title": "Available Vehicles",
+                    "description": "{{count}} ready for assignment"
+                },
+                "documentation": {
+                    "title": "Documentation",
+                    "description": "{{count}} documents pending"
+                }
+            },
+            "quickActions": {
+                "manageShipments": "Manage Shipments",
+                "planRoute": "Plan Route",
+                "fleet": "Fleet",
+                "quotes": "Quotes",
+                "customs": "Customs",
+                "chat": "Chat"
+            }
+        },
+        "agent": {
+            "title": "Agent Dashboard",
+            "widgets": {
+                "activeClients": {
+                    "title": "Active Clients",
+                    "description": "{{count}} clients managed"
+                },
+                "pendingCommissions": {
+                    "title": "Pending Commissions",
+                    "description": "{{amount}} awaiting payout"
+                },
+                "openTickets": {
+                    "title": "Open Tickets",
+                    "description": "{{count}} support tickets"
+                },
+                "newLeads": {
+                    "title": "New Leads",
+                    "description": "{{count}} potential clients"
+                }
+            },
+            "quickActions": {
+                "onboardClient": "Onboard Client",
+                "manageClients": "Manage Clients",
+                "trackCommissions": "Track Commissions",
+                "provideSupport": "Provide Support",
+                "findOpportunities": "Find Opportunities",
+                "viewAnalytics": "View Analytics"
+            }
+        },
+        "admin": {
+            "title": "Admin Dashboard",
+            "widgets": {
+                "totalUsers": {
+                    "title": "Total Users",
+                    "description": "{{count}} users on platform"
+                },
+                "openDisputes": {
+                    "title": "Open Disputes",
+                    "description": "{{count}} cases require review"
+                },
+                "pendingContent": {
+                    "title": "Pending Content",
+                    "description": "{{count}} items in moderation"
+                },
+                "systemStatus": {
+                    "title": "System Status",
+                    "description": "All systems operational"
+                }
+            },
+            "quickActions": {
+                "manageUsers": "Manage Users",
+                "manageRoles": "Manage Roles",
+                "resolveDisputes": "Resolve Disputes",
+                "systemConfig": "System Config",
+                "security": "Security",
+                "maintenance": "Maintenance"
+            }
+        },
+        "guest": {
+            "title": "Guest Dashboard",
+            "widgets": {
+                "welcome": {
+                    "title": "Welcome to DTFS",
+                    "description": "The future of green trade in Africa. Sign up to unlock full features."
+                },
+                "explore": {
+                    "title": "Explore the Platform",
+                    "description": "Browse our marketplace and discover training resources."
+                }
+            },
+            "quickActions": {
+                "browseMarketplace": "Browse Marketplace",
+                "viewTraining": "View Training"
+            }
+        },
+        "guestexporter": {
+            "title": "Guest Exporter Dashboard (Preview)"
+        },
+        "guestbuyer": {
+            "title": "Guest Buyer Dashboard (Preview)"
+        }
+    },
+    "chat": {
+        "title": "Conversations",
+        "placeholder": "Type your message...",
+        "online": "Online",
+        "offline": "Offline",
+        "selectConversation": "Select a conversation to start chatting",
+        "errorMessage": "Sorry, I couldn't get a response. Please try again.",
+        "videoCallInProgress": "Video call in progress...",
+        "recording": "Recording...",
+        "generatingSuggestions": "Generating suggestions..."
+    },
+    "aiAssistant": {
+        "title": "AI Assistant",
+        "placeholder": "Ask anything...",
+        "toggle": "Toggle AI Assistant"
+    },
+    "docWizard": {
+        "pageTitle": "AI Document Wizard",
+        "pageDescription": "Generate professional trade documents in minutes. Select a template, fill in the details, and let our AI do the rest.",
+        "chooseTemplate": "1. Choose a Template",
+        "fillInfo": "2. Fill in the Information",
+        "reviewAndGenerate": "3. Review & Use Your Document",
+        "changeTemplate": "Change Template",
+        "generateButton": "Generate Document",
+        "minutes_one": "{{count}} minute",
+        "minutes_other": "{{count}} minutes",
+        "popularity": "Popularity",
+        "templates": {
+            "invoice": {
+                "title": "Standard Invoice",
+                "description": "For general sales and services."
+            },
+            "commercial-invoice": {
+                "title": "Commercial Invoice",
+                "description": "Required for international trade."
+            },
+            "letter-of-credit": {
+                "title": "Letter of Credit App",
+                "description": "Secure international payments."
+            },
+            "packing-list": {
+                "title": "Packing List",
+                "description": "Detail contents of a shipment."
+            },
+            "export-license": {
+                "title": "Export License App",
+                "description": "For regulated goods."
+            },
+            "trade-contract": {
+                "title": "Trade Contract",
+                "description": "Formal agreement for a trade."
+            }
+        },
+        "sections": {
+            "company": "Company Details",
+            "invoiceInfo": "Invoice Info",
+            "billTo": "Bill To",
+            "shipTo": "Ship To",
+            "details": "Details",
+            "summary": "Summary",
+            "footer": "Footer",
+            "shipperExporter": "Shipper/Exporter",
+            "consignee": "Consignee",
+            "shippingInfo": "Shipping Information",
+            "productDetails": "Product Details",
+            "declaration": "Declaration",
+            "applicant": "Applicant",
+            "beneficiary": "Beneficiary",
+            "issuingBank": "Issuing Bank",
+            "advisingBank": "Advising Bank",
+            "creditDetails": "Credit Details",
+            "documentRequirements": "Document Requirements",
+            "shipper": "Shipper",
+            "shipmentDetails": "Shipment Details",
+            "packageSummary": "Package Summary",
+            "applicantInfo": "Applicant Information",
+            "productInfo": "Product Information",
+            "destinationInfo": "Destination Information",
+            "endUserInfo": "End User Information",
+            "parties": "Parties",
+            "goods": "Goods",
+            "payment": "Payment",
+            "delivery": "Delivery",
+            "clauses": "Clauses"
+        },
+        "fields": {
+            "companyName": "Company Name",
+            "companySlogan": "Company Slogan (Optional)",
+            "companyAddress": "Company Address",
+            "companyCity": "City, State, Zip",
+            "companyPhone": "Phone Number",
+            "companyFax": "Fax Number (Optional)",
+            "invoiceNumber": "Invoice #",
+            "date": "Date",
+            "toName": "Name",
+            "toCompany": "Company Name",
+            "toAddress": "Address",
+            "toCity": "City, State, Zip",
+            "toPhone": "Phone Number",
+            "shipToName": "Name",
+            "shipToCompany": "Company Name",
+            "shipToAddress": "Address",
+            "shipToCity": "City, State, Zip",
+            "shipToPhone": "Phone Number",
+            "salesperson": "Salesperson",
+            "poNumber": "P.O. Number",
+            "requisitioner": "Requisitioner",
+            "shippedVia": "Shipped Via",
+            "fobPoint": "F.O.B. Point",
+            "lineItems": "Line Items",
+            "lineItemsInvoice": "Enter each item on a new line. Format: Description, Quantity, Unit Price, Total. Example: Premium Cashew Nuts, 10, 1500, 15000",
+            "subtotal": "Subtotal",
+            "salesTax": "Sales Tax",
+            "shippingHandling": "Shipping & Handling",
+            "totalDue": "Total Due",
+            "comments": "Comments / Special Instructions",
+            "contactInfo": "If you have any questions about this invoice, please contact",
+            "shipperName": "Shipper/Exporter Name",
+            "shipperAddress": "Shipper/Exporter Address",
+            "consigneeName": "Consignee Name",
+            "consigneeAddress": "Consignee Address",
+
+            "invoiceDate": "Invoice Date",
+            "orderNumber": "Order Number",
+            "termsOfSale": "Terms of Sale (Incoterms)",
+            "reasonForExport": "Reason for Export",
+            "lineItemsCommercial": "Enter each item on a new line. Format: Description, HS Code, Quantity, Unit Price, Total Price. Example: Premium Cashew Nuts, 080132, 100 kg, $15, $1500",
+            "freightCharges": "Freight Charges",
+            "insurance": "Insurance",
+            "totalAmount": "Total Amount",
+            "declaration": "Declaration Statement",
+            "applicantName": "Applicant Name",
+            "applicantAddress": "Applicant Address",
+            "beneficiaryName": "Beneficiary Name",
+            "beneficiaryAddress": "Beneficiary Address",
+            "issuingBank": "Issuing Bank",
+            "advisingBank": "Advising Bank",
+            "creditAmount": "Credit Amount",
+            "currency": "Currency",
+            "expiryDate": "Expiry Date",
+            "goodsDescription": "Brief Description of Goods",
+            "requiredDocs": "Required Documents",
+            "dateOfShipment": "Date of Shipment",
+            "packageDetails": "Package Details",
+            "totalPackages": "Total Number of Packages",
+            "totalNetWeight": "Total Net Weight (kg)",
+            "totalGrossWeight": "Total Gross Weight (kg)",
+            "productDescription": "Full Product Description",
+            "hsCode": "HS Code",
+            "quantity": "Quantity",
+            "destinationCountry": "Destination Country",
+            "endUserName": "End User Name",
+            "endUserAddress": "End User Address",
+            "sellerName": "Seller Details (Name, Address)",
+            "buyerName": "Buyer Details (Name, Address)",
+            "qualitySpecs": "Quality Specifications",
+            "price": "Price per Unit",
+            "paymentTerms": "Payment Terms",
+            "deliveryTerms": "Delivery Terms",
+            "shipmentDate": "Latest Shipment Date",
+            "governingLaw": "Governing Law and Jurisdiction"
+        },
+        "placeholders": {
+            "companyName": "Your Company Inc.",
+            "companySlogan": "Your company slogan here",
+            "contactInfo": "[Name, Phone #, E-mail]",
+            "lineItemsInvoice": "Description, Quantity, Unit Price, Total...",
+            "reasonForExport": "e.g., Commercial Sale",
+            "lineItemsCommercial": "Description, HS Code, Quantity, Unit Price, Total...",
+            "declaration": "I declare that the information above is true and correct...",
+            "requiredDocs": "e.g., Commercial Invoice, Bill of Lading, Certificate of Origin...",
+            "packageDetails": "Enter package details. Format: Marks & Numbers, No. of Packages, Description, Net Wt, Gross Wt.",
+            "paymentTerms": "e.g., 30 days from date of invoice"
+        }
+    },
+    "tradeFinance": {
+        "pageTitle": "Fuel Your Growth with Tailored Trade Finance",
+        "pageDescription": "Access the capital you need to seize global opportunities. Our solutions are fast, flexible, and designed for African exporters.",
+        "totalFunded": "Total Funded",
+        "activeClients": "Active Clients",
+        "avgApproval": "Avg. Approval Time",
+        "successRate": "Success Rate",
+        "startApplication": "Start Application",
+        "compareOptions": "Compare Options",
+        "chooseOptionTitle": "Choose a Finance Option",
+        "chooseOptionDescription": "Select the financing solution that best fits your business needs. Each option is designed to address different stages of the trade cycle.",
+        "comparisonTitle": "Compare Trade Finance Options",
+        "comparisonDescription": "Review the key features of each option to make an informed decision.",
+        "applyFor": "Apply for {{option}}",
+        "applicationSubmitted": "Application Submitted!",
+        "applicationSuccessMessage": "Your application for {{option}} has been successfully submitted. Our team will review it and get back to you within 48 hours.",
+        "backToTradeFinance": "Back to Trade Finance",
+        "companyName": "Company Name",
+        "requestedAmount": "Requested Amount (USD)",
+        "uploadDocuments": "Upload Supporting Documents",
+        "uploadPrompt": "Drag & drop files here or click to select",
+        "submitApplication": "Submit Application",
+        "options": {
+            "factoring": {
+                "title": "Invoice Factoring",
+                "description": "Unlock cash from your unpaid invoices immediately."
+            },
+            "exportFinance": {
+                "title": "Export Finance",
+                "description": "Pre-shipment and post-shipment funding."
+            },
+            "supplyChainFinance": {
+                "title": "Supply Chain Finance",
+                "description": "Optimize cash flow for you and your suppliers."
+            },
+            "importFinance": {
+                "title": "Import Finance",
+                "description": "Finance the purchase of goods for import."
+            },
+            "nonInterestFinance": {
+                "title": "Non-Interest Finance",
+                "description": "Sharia-compliant trade financing solutions."
+            },
+            "startupTradeFinance": {
+                "title": "Startup Trade Finance",
+                "description": "Funding for new businesses entering global trade."
+            }
+        },
+        "comparison": {
+            "type": "Type",
+            "processTime": "Process Time",
+            "maxAmount": "Max Amount",
+            "interestRate": "Interest Rate",
+            "term": "Term",
+            "data": {
+                "factoring": {
+                    "processTime": "24-72 Hours",
+                    "interestRate": "1-3% per Invoice",
+                    "term": "Up to 120 Days"
+                },
+                "exportFinance": {
+                    "processTime": "3-5 Business Days",
+                    "interestRate": "5-10% p.a.",
+                    "term": "Up to 180 Days"
+                },
+                "supplyChainFinance": {
+                    "processTime": "2-4 Business Days",
+                    "interestRate": "Varies by Supplier",
+                    "term": "Up to 180 Days"
+                },
+                "importFinance": {
+                    "processTime": "5-7 Business Days",
+                    "interestRate": "6-12% p.a.",
+                    "term": "Up to 120 Days"
+                },
+                "nonInterestFinance": {
+                    "processTime": "3-5 Business Days",
+                    "interestRate": "Profit-Sharing Model",
+                    "term": "Varies"
+                },
+                "startupTradeFinance": {
+                    "processTime": "7-10 Business Days",
+                    "interestRate": "8-15% p.a.",
+                    "term": "Up to 90 Days"
+                },
+                "documentation": {
+                    "low": "Low",
+                    "medium": "Medium",
+                    "high": "High",
+                    "lowMedium": "Low to Medium"
+                }
+            },
+            "bestFor": {
+                "factoring": "Quick cash flow",
+                "exportFinance": "Funding export orders",
+                "supplyChainFinance": "Large corporations",
+                "importFinance": "Paying foreign suppliers",
+                "nonInterestFinance": "Ethical financing",
+                "startupTradeFinance": "New exporters"
+            }
+        }
+    },
+    "marketplace": {
+        "title": "Global Marketplace",
+        "pageTitle": "Discover Global Opportunities",
+        "pageDescription": "Connect with verified buyers and suppliers from across the continent and the world. All listings are from trusted members of the DTFS network.",
+        "searchPlaceholder": "Search for products like 'cashew nuts', 'shea butter'...",
+        "sortBy": "Sort by...",
+        "sortByOptions": {
+            "newest": "Newest",
+            "nameAsc": "Name (A-Z)",
+            "nameDesc": "Name (Z-A)",
+            "priceAsc": "Price (Low to High)",
+            "priceDesc": "Price (High to Low)"
+        },
+        "categories": {
+            "all": "All Categories",
+            "agriculture": "Agriculture",
+            "textiles": "Textiles",
+            "minerals": "Minerals",
+            "handicrafts": "Handicrafts",
+            "cosmetics": "Cosmetics"
+        },
+        "showingProducts": "Showing {{count}} products",
+        "verifiedSeller": "Verified Seller",
+        "exporterId": "Exporter ID:",
+        "perUnit": "/ unit",
+        "contactSeller": "Contact Seller"
+    },
+    "training": {
+        "title": "Training Hub",
+        "description": "Upskill your trade knowledge with our expert-led courses.",
+        "viewAll": "View All Courses",
+        "progress": "Progress",
+        "hours": "{{count}} hours",
+        "certificate": "Certificate",
+        "levels": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced"
+        },
+        "courses": {
+            "exportMastery": {
+                "title": "Export Mastery 101",
+                "description": "Learn the fundamentals of exporting from Africa."
+            },
+            "customsRegs": {
+                "title": "Navigating Customs",
+                "description": "Understand regulations and documentation."
+            },
+            "tradeFinance": {
+                "title": "Trade Finance Essentials",
+                "description": "Master the financial aspects of global trade."
+            }
+        }
+    },
+    "productManagement": {
+        "title": "Product Management",
+        "description": "Manage your product listings and inventory.",
+        "addNew": "Add New Product",
+        "searchPlaceholder": "Search by product name...",
+        "product": "Product",
+        "price": "Price",
+        "stock": "Stock",
+        "noProductsTitle": "No products yet",
+        "noProductsDescription": "Click 'Add New Product' to create your first listing.",
+        "modal": {
+            "editTitle": "Edit Product",
+            "addTitle": "Add New Product",
+            "productName": "Product Name",
+            "description": "Description",
+            "imageUrl": "Image URL",
+            "status": {
+                "active": "Active (Visible in Marketplace)",
+                "draft": "Draft (Hidden from Marketplace)"
+            },
+            "aiGeneratorTitle": "Generate with AI",
+            "aiGeneratorDescription": "Describe your product in a few words and let AI fill in the details and create an image.",
+            "aiPromptPlaceholder": "e.g., 'high quality shea butter from Ghana'",
+            "generate": "Generate"
+        },
+        "toast": {
+            "saveSuccessTitle": "Product Saved",
+            "saveSuccessDescription": "'{{name}}' has been successfully saved.",
+            "deleteSuccessTitle": "Product Deleted",
+            "deleteSuccessDescription": "'{{name}}' has been successfully deleted."
+        }
+    },
+    "orderManagement": {
+        "title": "Order Management",
+        "description": "Track and manage all your incoming orders.",
+        "tableView": "Table View",
+        "boardView": "Board View",
+        "searchPlaceholder": "Search by Order ID or Customer...",
+        "orderId": "Order ID",
+        "customer": "Customer",
+        "product": "Product",
+        "date": "Date",
+        "amount": "Amount",
+        "markAs": "Mark as {{status}}",
+        "noOrdersTitle": "No Orders Yet",
+        "noOrdersDescription": "Your incoming orders will appear here.",
+        "noOrdersInStatus": "No orders in this status.",
+        "statuses": {
+            "Pending": "Pending",
+            "Processing": "Processing",
+            "Shipped": "Shipped",
+            "Delivered": "Delivered"
+        },
+        "toast": {
+            "statusChangeTitle": "Order Status Updated",
+            "statusChangeDescription": "Order {{id}} has been marked as {{status}}."
+        }
+    },
+    "productDiscovery": {
+        "title": "AI Product Discovery",
+        "pageTitle": "Find Your Next Bestseller",
+        "pageDescription": "Describe what you're looking for, and our AI will search the marketplace to find the most relevant products for your business.",
+        "searchPlaceholder": "e.g., 'ethically sourced coffee beans', 'handmade leather bags from Ethiopia'",
+        "loading": "AI is searching the marketplace for you...",
+        "showingResults": "- {{count}} recommendations based on your query.",
+        "noResultsTitle": "No Matches Found",
+        "noResultsDescription": "Our AI couldn't find a direct match. Try broadening your search terms."
+    },
+    "supplierManagement": {
+        "title": "Supplier Management",
+        "description": "Manage your relationships with suppliers.",
+        "searchPlaceholder": "Search by name or location...",
+        "supplier": "Supplier",
+        "location": "Location",
+        "rating": "Rating",
+        "products": "Products",
+        "viewProducts": "View Products",
+        "viewContracts": "View Contracts",
+        "markPreferred": "Mark as Preferred",
+        "setActive": "Set to Active",
+        "blockSupplier": "Block Supplier",
+        "statuses": {
+            "Preferred": "Preferred",
+            "Active": "Active",
+            "Blocked": "Blocked"
+        }
+    },
+    "orderPlacement": {
+        "title": "Place a New Order",
+        "description": "Select a product and quantity to create a new trade order.",
+        "selectProduct": "Select Product",
+        "chooseProduct": "Choose a product...",
+        "quantity": "Quantity",
+        "estimatedTotal": "Estimated Total",
+        "placeOrder": "Place Order",
+        "successTitle": "Order Placed Successfully!",
+        "successDescription": "Your order has been sent to the exporter. You can track its status in the Order Management section.",
+        "placeAnother": "Place Another Order"
+    },
+    "qualityControl": {
+        "title": "Quality Control",
+        "description": "Monitor the inspection status of your orders.",
+        "orderId": "Order ID",
+        "orderDate": "Order Date",
+        "qualityStatus": "Quality Status",
+        "requestInspection": "Request Inspection",
+        "statuses": {
+            "notinspected": "Not Inspected",
+            "pending": "Pending",
+            "passed": "Passed",
+            "failed": "Failed"
+        }
+    },
+    "requestInspection": {
+        "title": "Request Quality Inspection",
+        "description": "Submit an order for quality assurance inspection by a certified third party.",
+        "orderId": "Order ID",
+        "orderIdPlaceholder": "Enter the Order ID (e.g., TRD-2024-003)",
+        "additionalNotes": "Additional Notes (Optional)",
+        "notesPlaceholder": "e.g., Please check for moisture content and nut size consistency.",
+        "submitRequest": "Submit Request",
+        "error": "Please enter a valid, uninspected Order ID.",
+        "successTitle": "Inspection Requested",
+        "successDescription": "A quality inspection has been scheduled for order {{orderId}}. You will be notified of the results.",
+        "requestAnother": "Request Another Inspection"
+    },
+    "contractManagement": {
+        "title": "Contract Management",
+        "description": "View and manage all your trade contracts.",
+        "contractId": "Contract ID",
+        "supplier": "Supplier",
+        "document": "Document",
+        "viewDocument": "View Document"
+    },
+    "shipmentManagement": {
+        "title": "Shipment Management",
+        "description": "Track and manage all outgoing and incoming shipments.",
+        "createShipment": "Create Shipment",
+        "searchPlaceholder": "Search by Shipment ID, Order ID, or Tracking #",
+        "shipmentOrderId": "Shipment / Order ID",
+        "route": "Route",
+        "carrier": "Carrier",
+        "eta": "Est. Delivery",
+        "noShipmentsTitle": "No Shipments",
+        "noShipmentsDescription": "Create a new shipment to get started.",
+        "modal": {
+            "editTitle": "Edit Shipment",
+            "addTitle": "Create New Shipment",
+            "orderId": "Order ID",
+            "selectOrder": "Select an order...",
+            "origin": "Origin",
+            "originPlaceholder": "e.g., Accra, Ghana",
+            "destination": "Destination",
+            "destinationPlaceholder": "e.g., Lagos, Nigeria",
+            "carrier": "Carrier",
+            "carrierPlaceholder": "e.g., Maersk",
+            "estimatedDelivery": "Estimated Delivery",
+            "saveShipment": "Save Shipment"
+        }
+    },
+    "routePlanning": {
+        "title": "Route Planning",
+        "description": "Assign vehicles and drivers to pending shipments.",
+        "optimizeWithAI": "Optimize with AI",
+        "optimizing": "Optimizing...",
+        "awaitingRoute": "Awaiting Route Assignment",
+        "activeRoutes": "Active Routes",
+        "noAwaiting": "No shipments are awaiting assignment.",
+        "noAwaitingAfterAI": "All pending shipments have been assigned by AI.",
+        "assignRoute": "Assign Route",
+        "aiSuggestedPlan": "AI Suggested Plan",
+        "aiPlanDescription": "Review the optimal assignments suggested by AI. You can confirm all or assign manually.",
+        "discard": "Discard",
+        "confirmPlan": "Confirm Plan",
+        "modal": {
+            "title": "Assign Route for {{shipmentId}}",
+            "route": "Route:",
+            "selectVehicle": "Vehicle",
+            "chooseVehicle": "Choose a vehicle...",
+            "selectDriver": "Driver",
+            "chooseDriver": "Choose a driver..."
+        }
+    },
+    "fleetManagement": {
+        "title": "Fleet Management",
+        "description": "Manage your vehicles and drivers.",
+        "vehicles": "Vehicles ({{count}})",
+        "drivers": "Drivers ({{count}})",
+        "addVehicle": "Add Vehicle",
+        "addDriver": "Add Driver",
+        "tableHeaders": {
+            "vehicleName": "Vehicle Name",
+            "type": "Type",
+            "driverName": "Driver Name",
+            "license": "License #"
+        },
+        "modal": {
+            "editVehicle": "Edit Vehicle",
+            "addVehicle": "Add New Vehicle",
+            "saveVehicle": "Save Vehicle",
+            "editDriver": "Edit Driver",
+            "addDriver": "Add New Driver",
+            "saveDriver": "Save Driver",
+            "placeholders": {
+                "vehicleName": "e.g., Freight Truck 1",
+                "driverName": "e.g., Musa Traore",
+                "license": "e.g., GH-12345"
+            }
+        }
+    },
+    "logisticsDocumentation": {
+        "title": "Logistics Documentation",
+        "description": "Manage all shipping-related documents.",
+        "addDocument": "Add Document",
+        "docId": "Doc ID",
+        "type": "Type",
+        "shipmentId": "Shipment ID",
+        "modal": {
+            "title": "Create New Document",
+            "docTypes": {
+                "bol": "Bill of Lading",
+                "ci": "Commercial Invoice",
+                "pl": "Packing List",
+                "coo": "Certificate of Origin"
+            },
+            "selectShipment": "Select a shipment",
+            "uploadFile": "Upload File",
+            "uploadPrompt": "Drag & drop or click to upload"
+        }
+    },
+    "communication": {
+        "title": "Shipment Communication",
+        "updatesFor": "Updates for {{shipmentId}}",
+        "toParties": "To: Exporter, Buyer, Agent",
+        "placeholder": "Send an update to all parties...",
+        "noSelection": "Select a shipment to view communications."
+    },
+    "pricingAndQuotes": {
+        "title": "Pricing & Quotes",
+        "description": "Create and manage freight quotes for clients.",
+        "createQuote": "Create Quote",
+        "quoteId": "Quote ID",
+        "customer": "Customer",
+        "route": "Route",
+        "totalCost": "Total Cost",
+        "modal": {
+            "title": "Create New Quote",
+            "customerName": "Customer Name",
+            "origin": "Origin",
+            "destination": "Destination",
+            "freightCost": "Freight Cost",
+            "insuranceCost": "Insurance Cost",
+            "saveQuote": "Save Quote"
+        }
+    },
+    "insuranceManagement": {
+        "title": "Insurance Management",
+        "description": "File and track insurance claims for shipments.",
+        "fileClaim": "File a New Claim",
+        "claimId": "Claim ID",
+        "shipmentId": "Shipment ID",
+        "amount": "Amount",
+        "modal": {
+            "title": "File New Insurance Claim",
+            "selectShipment": "Select shipment",
+            "reason": "Reason for claim",
+            "claimAmount": "Claim amount (USD)",
+            "submitClaim": "Submit Claim"
+        }
+    },
+    "customsClearance": {
+        "title": "Customs Clearance",
+        "description": "Manage customs filings and declarations.",
+        "newFiling": "New Filing",
+        "filingId": "Filing ID",
+        "shipmentId": "Shipment ID",
+        "dutyAmount": "Duty Amount",
+        "modal": {
+            "title": "New Customs Filing",
+            "selectShipment": "Select shipment for filing",
+            "declarationNumber": "Declaration Number",
+            "dutyAmount": "Duty Amount (USD)",
+            "submitFiling": "Submit Filing"
+        }
+    },
+    "clientManagement": {
+        "title": "Client Management",
+        "description": "View and manage your portfolio of clients.",
+        "addClient": "Add New Client",
+        "searchPlaceholder": "Search by client name or location...",
+        "name": "Name",
+        "type": "Type",
+        "location": "Location",
+        "joinDate": "Join Date",
+        "noClientsTitle": "No Clients Yet",
+        "noClientsDescription": "Click 'Add New Client' to start building your portfolio.",
+        "modal": {
+            "editTitle": "Edit Client",
+            "addTitle": "Add New Client",
+            "clientName": "Client Name",
+            "clientType": "Client Type",
+            "saveClient": "Save Client",
+            "types": {
+                "exporter": "Exporter",
+                "buyer": "Buyer",
+                "farmer": "Farmer"
+            }
+        }
+    },
+    "commissionTracking": {
+        "title": "Commission Tracking",
+        "description": "Monitor your earned and pending commissions.",
+        "totalEarned": "Total Earned",
+        "totalPaid": "Total Paid",
+        "pendingPayout": "Pending Payout",
+        "paid": "Paid",
+        "unpaid": "Unpaid",
+        "orderId": "Order ID",
+        "clientName": "Client Name",
+        "amount": "Amount",
+        "date": "Date"
+    },
+    "localSupport": {
+        "title": "Local Support Center",
+        "description": "Provide assistance and manage support tickets for your clients.",
+        "createTicket": "Create New Ticket",
+        "myTickets": "My Tickets ({{count}})",
+        "ticketId": "Ticket ID",
+        "client": "Client",
+        "issue": "Issue",
+        "noTicketsTitle": "No Support Tickets",
+        "noTicketsDescription": "Your clients' support tickets will appear here.",
+        "modal": {
+            "title": "Create a New Support Ticket",
+            "selectClient": "Select Client",
+            "chooseClient": "Choose a client...",
+            "describeIssue": "Describe the Issue",
+            "issuePlaceholder": "Briefly explain the client's problem..."
+        }
+    },
+    "marketDevelopment": {
+        "title": "Market Development Insights",
+        "description": "Use our AI to discover new market opportunities for products and industries.",
+        "searchPlaceholder": "Enter a product or industry (e.g., 'dried mangoes', 'textile industry')",
+        "getOpportunities": "Get Opportunities",
+        "generating": "Generating...",
+        "opportunitiesTitle": "AI-Generated Opportunities",
+        "loading": "AI is analyzing market data...",
+        "highPotential": "High Potential",
+        "noOpportunities": "Enter a product or industry above to find market opportunities."
+    },
+    "basicAnalytics": {
+        "title": "Agent Analytics",
+        "description": "Get a basic overview of your client acquisition and performance.",
+        "regionalSignups": "Regional Sign-ups (Last 30 Days)",
+        "activityBreakdown": "Activity Breakdown",
+        "activeClients": "Active Clients",
+        "activeClientsDesc": "{{percent}}% of your portfolio",
+        "topPerforming": "Top Performing Client",
+        "placeholder": "Chart data will be displayed here."
+    },
+    "userManagement": {
+        "title": "User Management",
+        "description": "Manage all users on the platform.",
+        "searchPlaceholder": "Search by name, email, or role...",
+        "deleteConfirm": "Are you sure you want to delete this user?",
+        "suspend": "Suspend",
+        "noUsersTitle": "Search returned no users",
+        "noUsersDescription": "Try a different search query.",
+        "tableHeaders": {
+            "user": "User",
+            "role": "Role"
+        },
+        "modal": {
+            "title": "Edit User Role",
+            "editingUser": "Editing user:",
+            "saveRole": "Save Role"
+        }
+    },
+    "roleManagement": {
+        "title": "Role & Permission Management",
+        "description": "Configure permissions for each user role across the platform.",
+        "permission": "Permission",
+        "role": "Role"
+    },
+    "systemConfiguration": {
+        "title": "System Configuration",
+        "description": "Adjust global settings for the platform.",
+        "userSettings": "User & Authentication Settings",
+        "enableRegistrations": "Enable User Registrations",
+        "enableRegistrationsDesc": "Allow new users to sign up for the platform.",
+        "requireVerification": "Require Email Verification",
+        "requireVerificationDesc": "New users must verify their email before logging in.",
+        "enforceStrongPasswords": "Enforce Strong Passwords",
+        "enforceStrongPasswordsDesc": "Require passwords to meet complexity requirements.",
+        "financialSettings": "Financial Settings",
+        "commissionRate": "Platform Commission Rate",
+        "commissionRateDesc": "The percentage fee taken on completed trades.",
+        "enablePapss": "Enable PAPSS Integration",
+        "enablePapssDesc": "Allow cross-border payments via the PAPSS network."
+    },
+    "contentModeration": {
+        "title": "Content Moderation",
+        "description": "Review and approve or reject user-submitted content.",
+        "pendingReview": "Pending Review ({{count}})",
+        "submittedBy": "Submitted by {{name}} on {{date}}",
+        "approve": "Approve",
+        "reject": "Reject",
+        "emptyQueue": "The moderation queue is empty."
+    },
+    "disputeResolution": {
+        "title": "Dispute Resolution Center",
+        "description": "Mediate and resolve disputes between users.",
+        "disputeId": "Dispute ID",
+        "orderId": "Order ID",
+        "parties": "Parties",
+        "reason": "Reason",
+        "reviewCase": "Review Case",
+        "modal": {
+            "title": "Review Dispute: {{disputeId}}",
+            "partiesLabel": "Parties Involved",
+            "reasonLabel": "Reason for Dispute",
+            "dateFiledLabel": "Date Filed",
+            "currentStatusLabel": "Current Status",
+            "aiAnalysis": "AI-Powered Analysis",
+            "aiDescription": "Let our AI analyze the case and conversation history to provide a neutral summary and suggested resolution.",
+            "aiError": "Error during AI analysis. Please review manually.",
+            "aiErrorSuggestion": "Manual review required.",
+            "analyzeButton": "Analyze with AI",
+            "summary": "Summary",
+            "keyPoints": "Key Points",
+            "suggestedResolution": "Suggested Resolution",
+            "markInReview": "Mark as In Review",
+            "markResolved": "Mark as Resolved"
+        }
+    },
+    "financialOversight": {
+        "title": "Financial Oversight",
+        "description": "Monitor the financial health and transactions of the platform.",
+        "totalVolume": "Total Trade Volume (30d)",
+        "platformRevenue": "Platform Revenue (30d)",
+        "pendingPayouts": "Pending Payouts",
+        "recentTransactions": "Recent Platform Transactions",
+        "transactionId": "Transaction ID",
+        "type": "Type",
+        "amount": "Amount"
+    },
+    "analyticsAccess": {
+        "title": "Platform Analytics",
+        "description": "Access detailed analytics and data dashboards.",
+        "userGrowth": "User Growth",
+        "tradeVolume": "Trade Volume by Country",
+        "placeholder": "Analytics chart placeholder"
+    },
+    "securityManagement": {
+        "title": "Security Management",
+        "description": "Monitor security events and audit logs.",
+        "auditLog": "Security Audit Log",
+        "event": "Event",
+        "user": "User",
+        "ipAddress": "IP Address",
+        "time": "Time",
+        "statuses": {
+            "success": "Success",
+            "failed": "Failed"
+        }
+    },
+    "complianceMonitoring": {
+        "title": "Compliance Monitoring",
+        "description": "Ensure the platform adheres to all regulatory requirements.",
+        "complianceStatus": "Compliance Status",
+        "lastChecked": "Last checked: {{date}}",
+        "recheck": "Re-check",
+        "items": {
+            "aml": "AML (Anti-Money Laundering)",
+            "kyc": "KYC (Know Your Customer)",
+            "gdpr": "GDPR Data Protection",
+            "afcfta": "AfCFTA Trade Regulations"
+        }
+    },
+    "systemMaintenance": {
+        "title": "System Maintenance",
+        "description": "Control system status and maintenance mode.",
+        "maintenanceMode": "Maintenance Mode",
+        "enableMaintenance": "Enable Maintenance Mode",
+        "enableMaintenanceDesc": "Takes the platform offline for all non-admin users.",
+        "maintenanceMessage": "Maintenance Message",
+        "maintenanceMessageDesc": "Message displayed to users during maintenance.",
+        "defaultMessage": "The platform is currently undergoing scheduled maintenance. We apologize for any inconvenience and will be back online shortly.",
+        "saveMessage": "Save Message"
+    },
+    "profile": {
+        "role": "Role:",
+        "badgesTitle": "Trade Badges",
+        "badgesDescription": "Your accomplishments and verifications on the platform.",
+        "noBadges": "Complete more trades and verify your profile to earn badges.",
+        "summaryTitle": "AI-Generated Profile Summary",
+        "summaryDescription": "Let AI create a professional summary based on your activity.",
+        "generateSummary": "Generate Summary",
+        "summaryError": "Could not generate summary at this time.",
+        "badges": {
+            "verified": "Verified Member",
+            "topSeller": "Top Seller",
+            "crossBorder": "Cross-Border Expert",
+            "compliant": "Compliant Buyer",
+            "financeApproved": "Finance Approved"
+        }
+    },
+    "esg": {
+        "title": "ESG Hub",
+        "description": "Monitor and improve your Environmental, Social, and Governance score.",
+        "environmental": "Environmental Criteria",
+        "social": "Social Criteria",
+        "governance": "Governance Criteria",
+        "criteria": {
+            "env1": {
+                "name": "Carbon Footprint Tracking",
+                "desc": "Regularly report and track carbon emissions from production and transport."
+            },
+            "env2": {
+                "name": "Sustainable Sourcing",
+                "desc": "Raw materials are sourced from certified sustainable suppliers."
+            },
+            "env3": {
+                "name": "Waste Reduction Program",
+                "desc": "Active program to reduce, reuse, and recycle waste materials."
+            },
+            "soc1": {
+                "name": "Fair Labor Practices",
+                "desc": "Compliance with international fair labor standards."
+            },
+            "soc2": {
+                "name": "Community Engagement",
+                "desc": "Active investment and engagement programs in the local community."
+            },
+            "soc3": {
+                "name": "Health & Safety Standards",
+                "desc": "Implementation of certified occupational health and safety standards."
+            },
+            "gov1": {
+                "name": "Transparent Governance",
+                "desc": "Publicly available corporate governance and ethics policies."
+            },
+            "gov2": {
+                "name": "Anti-Corruption Policy",
+                "desc": "A formal and enforced anti-corruption and anti-bribery policy."
+            }
+        },
+        "statuses": {
+            "Certified": "Certified",
+            "InProgress": "In Progress",
+            "NotStarted": "Not Started"
+        },
+        "greenFinance": {
+            "title": "Green Finance Opportunities",
+            "description": "Access special financing for your eco-friendly initiatives.",
+            "applyNow": "Apply Now",
+            "options": {
+                "agriLoan": {
+                    "title": "Sustainable Agriculture Loan",
+                    "desc": "Funding for organic farming and sustainable harvesting practices."
+                },
+                "renewableEnergy": {
+                    "title": "Renewable Energy Upgrade",
+                    "desc": "Finance solar panels or other renewable energy sources for your facilities."
+                },
+                "ecoPackaging": {
+                    "title": "Eco-Friendly Packaging Fund",
+                    "desc": "Support for transitioning to biodegradable or recycled packaging materials."
+                }
+            }
+        },
+        "ecoLearning": {
+            "title": "ECO Learning Hub",
+            "description": "Expand your knowledge on sustainable practices and green certifications.",
+            "goToTraining": "Go to Training Hub"
+        }
+    },
+    "userOnboarding": {
+        "title": "Complete Your Profile Verification",
+        "description": "To ensure the security and integrity of our platform, we require all new members to complete this verification process.",
+        "step1": "Confirm Details",
+        "step2": "Upload Documents",
+        "step3": "Review & Submit",
+        "formTitle": "Confirm Your Details",
+        "nameLabel": "Full Name",
+        "emailLabel": "Email",
+        "roleLabel": "Role",
+        "kycTitle": "Upload Verification Documents",
+        "kycDocs": {
+            "bizReg": "Business Registration Document",
+            "idProof": "Proof of Identity (Director/Owner)",
+            "addrProof": "Proof of Address (Utility Bill)",
+            "taxCert": "Tax Clearance Certificate"
+        },
+        "reviewTitle": "Review and Submit",
+        "docsUploaded": "{{name}} uploaded",
+        "submitVerification": "Submit for Verification",
+        "successTitle": "Verification Submitted!",
+        "successDescription": "Thank you, {{name}}. Your documents have been submitted for review. You will receive a notification once the process is complete (usually within 24 hours). You now have full access to your dashboard.",
+        "goToDashboard": "Go to Dashboard"
+    },
+    "maintenance": {
+        "title": "Under Maintenance",
+        "description": "The platform is currently undergoing scheduled maintenance. We apologize for any inconvenience and will be back online shortly."
+    },
+    "notifications": {
+        "title": "Notifications",
+        "markAllRead": "Mark all as read",
+        "noNotifications": "No new notifications",
+        "viewAll": "View all notifications"
+    },
+    "notification": {
+        "doc": {
+            "title": "Document Required",
+            "desc": "A new document is required for Shipment SHP-002."
+        },
+        "system": {
+            "title": "Profile Update",
+            "desc": "Please complete your profile information."
+        },
+        "payment": {
+            "title": "Escrow Funded",
+            "desc": "Funds for order TRD-2024-003 are now in escrow."
+        }
+    },
+    "wallet": {
+        "pageTitle": "Digital Wallet & Finance",
+        "pageDescription": "Manage your funds, track transactions, and access financial services.",
+        "totalBalance": "Total Balance",
+        "inEscrow": "In Escrow",
+        "monthlyProfit": "Monthly Profit",
+        "activeTrades": "{{count}} active trades",
+        "deposit": "Deposit",
+        "send": "Send",
+        "swap": "Swap",
+        "bridge": "Bridge",
+        "overview": "Overview",
+        "transactions": "Transactions",
+        "exchange": "Exchange",
+        "settings": "Settings",
+        "tabs": {
+            "tradePassport": "Trade Passport"
+        },
+        "connectWallet": "Connect a Wallet",
+        "wallets": {
+            "title": "Crypto Wallets",
+            "metamask": "MetaMask",
+            "coinbase": "Coinbase Wallet",
+            "walletconnect": "WalletConnect"
+        },
+        "papss": {
+            "title": "PAPSS",
+            "description": "Seamlessly make and receive cross-border payments in your local currency across Africa.",
+            "initiatePayment": "Initiate PAPSS Payment"
+        },
+        "escrow": {
+            "title": "Escrow Agreements",
+            "description": "Manage funds held in escrow for your trades.",
+            "createEscrow": "Create New Escrow",
+            "noEscrow": "No active escrow agreements.",
+            "modal": {
+                "title": "Create Escrow for Order",
+                "selectOrder": "Select an order to fund",
+                "createButton": "Create & Fund Escrow"
+            },
+            "toast": {
+                "successTitle": "Escrow Created",
+                "successDescription": "Escrow for order {{orderId}} has been created and is awaiting funds."
+            }
+        },
+        "passport": {
+            "noData": "ESG and credential data not available.",
+            "esgTitle": "Sustainability Score",
+            "esgOverall": "Overall Score",
+            "esgBreakdown": "Score Breakdown",
+            "esgEnvironmental": "Environmental",
+            "esgSocial": "Social",
+            "esgGovernance": "Governance"
+        }
+    },
+    "search": {
+        "resultsFor": "Results for '{{query}}'",
+        "noResults": "No results found.",
+        "categories": {
+            "products": "Products",
+            "orders": "Orders",
+            "shipments": "Shipments",
+            "users": "Users"
+        }
+    },
+    "common": {
+        "idLabel": "ID:",
+        "units": "units",
+        "inStock": "in stock",
+        "details": "Details",
+        "back": "Back",
+        "next": "Next",
+        "generating": "Generating...",
+        "thinking": "Thinking...",
+        "startOver": "Start Over",
+        "print": "Print",
+        "share": "Share",
+        "edit": "Edit",
+        "delete": "Delete",
+        "deleteConfirm": "Are you sure you want to delete this item?",
+        "save": "Save",
+        "cancel": "Cancel",
+        "noAction": "No actions available",
+        "status": "Status",
+        "date": "Date",
+        "actions": "Actions",
+        "viewDetails": "View Details",
+        "selectOption": "Select an option...",
+        "justNow": "Just now",
+        "loading": "Loading..."
+    },
+    "pwa": {
+        "installTitle": "Install DTFS App",
+        "installDescription": "Get the best experience with our native-like app. Fast, reliable, and works offline.",
+        "installButton": "Install App"
+    }
+}
