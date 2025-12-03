@@ -148,7 +148,7 @@ const RoleDashboard: React.FC<RoleDashboardProps> = ({ config, setActivePage, pr
                         key={index}
                         title={t(widget.title)}
                         icon={<widget.icon className="w-6 h-6"/>}
-                        description={t(widget.description, widget.values)}
+                        description={t(widget.description, widget.values || {})}
                         trend={trends[index]}
                         gradient={exporterGradients[index % exporterGradients.length]}
                     />
@@ -160,7 +160,7 @@ const RoleDashboard: React.FC<RoleDashboardProps> = ({ config, setActivePage, pr
                     key={index} 
                     title={t(widget.title)} 
                     icon={<widget.icon className="w-6 h-6"/>} 
-                    description={t(widget.description, widget.values)}
+                    description={t(widget.description, widget.values || {})}
                     trend={undefined}
                 />
             )
