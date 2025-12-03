@@ -1,0 +1,1321 @@
+{
+    "nav": {
+        "Dashboard": "Tableau de bord",
+        "Chat": "Chat",
+        "Document Wizard": "Assistant Document",
+        "Request Finance": "Demande de Financement",
+        "Marketplace": "Place de Marché",
+        "Training": "Formation",
+        "Wallet": "Portefeuille",
+        "Profile": "Profil",
+        "Product Management": "Gestion Produits",
+        "Order Management": "Gestion Commandes",
+        "AI Product Recommendation": "Recos IA Produits",
+        "Supplier Management": "Gestion Fournisseurs",
+        "Order Placement": "Passer Commande",
+        "Quality Control": "Contrôle Qualité",
+        "Request Inspection": "Demande d'Inspection",
+        "Contract Management": "Gestion Contrats",
+        "Shipment Management": "Gestion Expéditions",
+        "Route Planning": "Planification d'Itinéraire",
+        "Fleet Management": "Gestion de Flotte",
+        "Logistics Documentation": "Documents Logistiques",
+        "Communication": "Communication",
+        "Pricing & Quotes": "Tarifs & Devis",
+        "Insurance Management": "Gestion Assurance",
+        "Customs Clearance": "Dédouanement",
+        "Client Management": "Gestion Clients",
+        "Commission Tracking": "Suivi Commissions",
+        "Training Access": "Accès Formation",
+        "Local Support": "Support Local",
+        "Market Development": "Développement Marché",
+        "Basic Analytics": "Analyses",
+        "User Onboarding": "Intégration Utilisateur",
+        "User Management": "Gestion Utilisateurs",
+        "Role Management": "Gestion Rôles",
+        "System Configuration": "Config Système",
+        "Content Moderation": "Modération Contenu",
+        "Dispute Resolution": "Résolution Litiges",
+        "Financial Oversight": "Surveillance Financière",
+        "Analytics Access": "Accès Analyses",
+        "Security Management": "Sécurité",
+        "Compliance Monitoring": "Conformité",
+        "System Maintenance": "Maintenance",
+        "ESG": "Hub ESG",
+        "Exporter": "Exportateur",
+        "Buyer": "Acheteur",
+        "Logistics": "Logistique",
+        "Agent": "Agent",
+        "Admin": "Admin",
+        "Guest": "Invité",
+        "mainMenu": "Menu Principal",
+        "menu": "Menu"
+    },
+    "header": {
+        "searchPlaceholder": "Rechercher commandes, produits...",
+        "logout": "Déconnexion",
+        "languages": {
+            "en": "English",
+            "fr": "Français",
+            "sw": "Kiswahili",
+            "ar": "العربية",
+            "pt": "Português",
+            "ha": "Hausa",
+            "yo": "Yorùbá",
+            "ig": "Igbo"
+        }
+    },
+    "login": {
+        "welcome": "Bienvenue sur DTFS",
+        "continueWithPhone": "Continuer avec le téléphone",
+        "continueWith": "ou continuer avec",
+        "alreadyMember": "Déjà membre ? Se connecter",
+        "browseGuest": "Naviguer en tant qu'invité",
+        "logIn": "Se connecter",
+        "emailAddress": "Adresse e-mail",
+        "password": "Mot de passe",
+        "rememberMe": "Se souvenir de moi",
+        "forgotPassword": "Mot de passe oublié ?",
+        "getStarted": "Commencer",
+        "phoneNumber": "Numéro de téléphone",
+        "sendCode": "Envoyer le code",
+        "enterCode": "Entrez votre code",
+        "code": "Code à 6 chiffres",
+        "verify": "Vérifier",
+        "register": {
+            "title": "Créer votre compte",
+            "nameLabel": "Nom complet",
+            "emailLabel": "Adresse e-mail",
+            "roleLabel": "Je suis un(e)...",
+            "createButton": "Créer le compte",
+            "locationDetected": "On dirait que vous êtes en {{country}}. Nous pouvons suggérer des produits pertinents."
+        },
+        "forgotPasswordTitle": "Mot de passe oublié ?",
+        "forgotPasswordDescription": "Pas de soucis, nous vous enverrons des instructions de réinitialisation.",
+        "sendResetLink": "Envoyer le lien de réinitialisation",
+        "resetLinkSentTitle": "Vérifiez votre e-mail",
+        "resetLinkSentDescription": "Nous avons envoyé un lien de réinitialisation de mot de passe à {{email}}.",
+        "backToLogin": "Retour à la connexion"
+    },
+    "dashboard": {
+        "welcome": "Bon retour, {{name}} !",
+        "loggedInAs": "Vous êtes connecté en tant que",
+        "title": "Mon tableau de bord",
+        "quickActions": "Actions Rapides",
+        "exporter": {
+            "title": "Tableau de bord Exportateur",
+            "widgets": {
+                "activeListings": {
+                    "title": "Annonces Actives",
+                    "description": "{{count}} produits en ligne"
+                },
+                "pendingOrders": {
+                    "title": "Commandes en Attente",
+                    "description": "{{count}} commandes requièrent attention"
+                },
+                "monthlyRevenue": {
+                    "title": "Revenu Mensuel",
+                    "description": "{{amount}} ce mois-ci"
+                },
+                "esgStatus": {
+                    "title": "Statut ESG",
+                    "description": "Score: {{score}}/100 - Certifié"
+                }
+            },
+            "quickActions": {
+                "addProduct": "Ajouter un Produit",
+                "viewOrders": "Voir les Commandes",
+                "requestFinance": "Demande de Financement",
+                "createDocument": "Créer un Document",
+                "checkWallet": "Consulter Portefeuille",
+                "openChat": "Ouvrir le Chat"
+            },
+             "visibleProducts": {
+                "title": "Produits Visibles",
+                "addNewProduct": "Ajouter un produit",
+                "noProductsTitle": "Aucun produit listé",
+                "noProductsDescription": "Ajoutez votre premier produit pour commencer.",
+                "toggleAriaLabel": "Basculer la visibilité pour {{name}}"
+            }
+        },
+        "buyer": {
+            "title": "Tableau de bord Acheteur",
+            "widgets": {
+                "activeOrders": {
+                    "title": "Commandes Actives",
+                    "description": "{{count}} commandes en cours"
+                },
+                "pendingInspections": {
+                    "title": "Inspections en Attente",
+                    "description": "{{count}} commandes en attente de QA"
+                },
+                "trustedSuppliers": {
+                    "title": "Fournisseurs de Confiance",
+                    "description": "{{count}} partenaires préférés"
+                },
+                "inEscrow": {
+                    "title": "En Escrow",
+                    "description": "{{amount}} sécurisés"
+                }
+            },
+            "quickActions": {
+                "discoverProducts": "Découvrir Produits",
+                "placeOrder": "Passer une Commande",
+                "manageSuppliers": "Gérer Fournisseurs",
+                "viewContracts": "Voir Contrats",
+                "requestInspection": "Demander Inspection",
+                "openChat": "Ouvrir le Chat"
+            }
+        },
+        "logistics": {
+            "title": "Tableau de bord Logistique",
+            "widgets": {
+                "inTransit": {
+                    "title": "En Transit",
+                    "description": "{{count}} expéditions en route"
+                },
+                "pendingPickup": {
+                    "title": "Enlèvement en Attente",
+                    "description": "{{count}} expéditions à collecter"
+                },
+                "availableVehicles": {
+                    "title": "Véhicules Disponibles",
+                    "description": "{{count}} prêts à être assignés"
+                },
+                "documentation": {
+                    "title": "Documentation",
+                    "description": "{{count}} documents en attente"
+                }
+            },
+            "quickActions": {
+                "manageShipments": "Gérer Expéditions",
+                "planRoute": "Planifier Itinéraire",
+                "fleet": "Flotte",
+                "quotes": "Devis",
+                "customs": "Douanes",
+                "chat": "Chat"
+            }
+        },
+        "agent": {
+            "title": "Tableau de bord Agent",
+            "widgets": {
+                "activeClients": {
+                    "title": "Clients Actifs",
+                    "description": "{{count}} clients gérés"
+                },
+                "pendingCommissions": {
+                    "title": "Commissions en Attente",
+                    "description": "{{amount}} en attente de paiement"
+                },
+                "openTickets": {
+                    "title": "Tickets Ouverts",
+                    "description": "{{count}} tickets de support"
+                },
+                "newLeads": {
+                    "title": "Nouveaux Prospects",
+                    "description": "{{count}} clients potentiels"
+                }
+            },
+            "quickActions": {
+                "onboardClient": "Intégrer Client",
+                "manageClients": "Gérer Clients",
+                "trackCommissions": "Suivre Commissions",
+                "provideSupport": "Fournir Support",
+                "findOpportunities": "Trouver Opportunités",
+                "viewAnalytics": "Voir Analyses"
+            }
+        },
+        "admin": {
+            "title": "Tableau de bord Admin",
+            "widgets": {
+                "totalUsers": {
+                    "title": "Total Utilisateurs",
+                    "description": "{{count}} utilisateurs sur la plateforme"
+                },
+                "openDisputes": {
+                    "title": "Litiges Ouverts",
+                    "description": "{{count}} cas nécessitent une révision"
+                },
+                "pendingContent": {
+                    "title": "Contenu en Attente",
+                    "description": "{{count}} éléments en modération"
+                },
+                "systemStatus": {
+                    "title": "État du Système",
+                    "description": "Tous les systèmes sont opérationnels"
+                }
+            },
+            "quickActions": {
+                "manageUsers": "Gérer Utilisateurs",
+                "manageRoles": "Gérer Rôles",
+                "resolveDisputes": "Résoudre Litiges",
+                "systemConfig": "Config Système",
+                "security": "Sécurité",
+                "maintenance": "Maintenance"
+            }
+        },
+        "guest": {
+            "widgets": {
+                "welcome": {
+                    "title": "Bienvenue sur DTFS",
+                    "description": "Le futur du commerce vert en Afrique. Inscrivez-vous pour débloquer toutes les fonctionnalités."
+                },
+                "explore": {
+                    "title": "Explorer la Plateforme",
+                    "description": "Parcourez notre place de marché et découvrez nos formations."
+                }
+            },
+            "quickActions": {
+                "browseMarketplace": "Parcourir la Place de Marché",
+                "viewTraining": "Voir les Formations"
+            }
+        }
+    },
+    "chat": {
+        "title": "Conversations",
+        "placeholder": "Écrivez votre message...",
+        "online": "En ligne",
+        "offline": "Hors ligne",
+        "selectConversation": "Sélectionnez une conversation pour commencer",
+        "errorMessage": "Désolé, je n'ai pas pu obtenir de réponse. Veuillez réessayer.",
+        "videoCallInProgress": "Appel vidéo en cours...",
+        "recording": "Enregistrement...",
+        "generatingSuggestions": "Génération de suggestions..."
+    },
+    "aiAssistant": {
+        "title": "Assistant IA",
+        "placeholder": "Posez une question...",
+        "toggle": "Basculer l'Assistant IA"
+    },
+    "docWizard": {
+        "pageTitle": "Assistant de Documents IA",
+        "pageDescription": "Générez des documents commerciaux professionnels en quelques minutes. Sélectionnez un modèle, remplissez les détails et laissez notre IA faire le reste.",
+        "chooseTemplate": "1. Choisissez un Modèle",
+        "fillInfo": "2. Remplissez les Informations",
+        "reviewAndGenerate": "3. Révisez et Utilisez Votre Document",
+        "changeTemplate": "Changer de Modèle",
+        "generateButton": "Générer le Document",
+        "minutes_one": "{{count}} minute",
+        "minutes_other": "{{count}} minutes",
+        "popularity": "Popularité",
+        "templates": {
+            "invoice": {
+                "title": "Facture Standard",
+                "description": "Pour les ventes et services généraux."
+            },
+            "commercial-invoice": {
+                "title": "Facture Commerciale",
+                "description": "Requise pour le commerce international."
+            },
+            "letter-of-credit": {
+                "title": "Demande de Crédit Documentaire",
+                "description": "Paiements internationaux sécurisés."
+            },
+            "packing-list": {
+                "title": "Liste de Colisage",
+                "description": "Détaille le contenu d'une expédition."
+            },
+            "export-license": {
+                "title": "Demande de Licence d'Export",
+                "description": "Pour les marchandises réglementées."
+            },
+            "trade-contract": {
+                "title": "Contrat Commercial",
+                "description": "Accord formel pour un échange."
+            }
+        },
+        "sections": {
+            "company": "Détails de l'entreprise",
+            "invoiceInfo": "Informations sur la facture",
+            "billTo": "Facturer à",
+            "shipTo": "Expédier à",
+            "details": "Détails",
+            "summary": "Résumé",
+            "footer": "Pied de page",
+            "shipperExporter": "Expéditeur/Exportateur",
+            "consignee": "Destinataire",
+            "shippingInfo": "Informations d'expédition",
+            "productDetails": "Détails du produit",
+            "declaration": "Déclaration",
+            "applicant": "Demandeur",
+            "beneficiary": "Bénéficiaire",
+            "issuingBank": "Banque Émettrice",
+            "advisingBank": "Banque Notificatrice",
+            "creditDetails": "Détails du crédit",
+            "documentRequirements": "Documents requis",
+            "shipper": "Expéditeur",
+            "shipmentDetails": "Détails de l'expédition",
+            "packageSummary": "Résumé des colis",
+            "applicantInfo": "Informations sur le demandeur",
+            "productInfo": "Informations sur le produit",
+            "destinationInfo": "Informations sur la destination",
+            "endUserInfo": "Informations sur l'utilisateur final",
+            "parties": "Parties",
+            "goods": "Marchandises",
+            "payment": "Paiement",
+            "delivery": "Livraison",
+            "clauses": "Clauses"
+        },
+        "fields": {
+            "companyName": "Nom de l'entreprise",
+            "companySlogan": "Slogan de l'entreprise (Optionnel)",
+            "companyAddress": "Adresse de l'entreprise",
+            "companyCity": "Ville, État, Code Postal",
+            "companyPhone": "Numéro de téléphone",
+            "companyFax": "Numéro de fax (Optionnel)",
+            "invoiceNumber": "Facture N°",
+            "date": "Date",
+            "toName": "Nom",
+            "toCompany": "Nom de l'entreprise",
+            "toAddress": "Adresse",
+            "toCity": "Ville, État, Code Postal",
+            "toPhone": "Numéro de téléphone",
+            "shipToName": "Nom",
+            "shipToCompany": "Nom de l'entreprise",
+            "shipToAddress": "Adresse",
+            "shipToCity": "Ville, État, Code Postal",
+            "shipToPhone": "Numéro de téléphone",
+            "salesperson": "Vendeur",
+            "poNumber": "Numéro de bon de commande",
+            "requisitioner": "Demandeur",
+            "shippedVia": "Expédié via",
+            "fobPoint": "Point F.O.B.",
+            "lineItems": "Lignes d'articles",
+            "lineItemsInvoice": "Entrez chaque article sur une nouvelle ligne. Format : Description, Quantité, Prix Unitaire, Total. Exemple : Noix de cajou premium, 10, 1500, 15000",
+            "subtotal": "Sous-total",
+            "salesTax": "Taxe de vente",
+            "shippingHandling": "Expédition et Manutention",
+            "totalDue": "Total dû",
+            "comments": "Commentaires / Instructions spéciales",
+            "contactInfo": "Si vous avez des questions sur cette facture, veuillez contacter",
+            "shipperName": "Nom de l'expéditeur/exportateur",
+            "shipperAddress": "Adresse de l'expéditeur/exportateur",
+            "consigneeName": "Nom du destinataire",
+            "consigneeAddress": "Adresse du destinataire",
+            "invoiceDate": "Date de la facture",
+            "orderNumber": "Numéro de commande",
+            "termsOfSale": "Conditions de vente (Incoterms)",
+            "reasonForExport": "Motif de l'exportation",
+            "lineItemsCommercial": "Entrez chaque article sur une nouvelle ligne. Format : Description, Code SH, Quantité, Prix Unitaire, Prix Total. Exemple : Noix de cajou premium, 080132, 100 kg, 15 $, 1500 $",
+            "freightCharges": "Frais de transport",
+            "insurance": "Assurance",
+            "totalAmount": "Montant total",
+            "declaration": "Déclaration",
+            "applicantName": "Nom du demandeur",
+            "applicantAddress": "Adresse du demandeur",
+            "beneficiaryName": "Nom du bénéficiaire",
+            "beneficiaryAddress": "Adresse du bénéficiaire",
+            "issuingBank": "Banque émettrice",
+            "advisingBank": "Banque notificatrice",
+            "creditAmount": "Montant du crédit",
+            "currency": "Devise",
+            "expiryDate": "Date d'expiration",
+            "goodsDescription": "Brève description des marchandises",
+            "requiredDocs": "Documents requis",
+            "dateOfShipment": "Date d'expédition",
+            "packageDetails": "Détails du colis",
+            "totalPackages": "Nombre total de colis",
+            "totalNetWeight": "Poids net total (kg)",
+            "totalGrossWeight": "Poids brut total (kg)",
+            "productDescription": "Description complète du produit",
+            "hsCode": "Code SH",
+            "quantity": "Quantité",
+            "destinationCountry": "Pays de destination",
+            "endUserName": "Nom de l'utilisateur final",
+            "endUserAddress": "Adresse de l'utilisateur final",
+            "sellerName": "Détails du vendeur (Nom, Adresse)",
+            "buyerName": "Détails de l'acheteur (Nom, Adresse)",
+            "qualitySpecs": "Spécifications de qualité",
+            "price": "Prix par unité",
+            "paymentTerms": "Conditions de paiement",
+            "deliveryTerms": "Conditions de livraison",
+            "shipmentDate": "Date d'expédition la plus tardive",
+            "governingLaw": "Droit applicable et juridiction"
+        },
+        "placeholders": {
+            "companyName": "Votre Entreprise Inc.",
+            "companySlogan": "Le slogan de votre entreprise ici",
+            "contactInfo": "[Nom, N° de Tél, E-mail]",
+            "lineItemsInvoice": "Description, Quantité, Prix Unitaire, Total...",
+            "reasonForExport": "par ex., Vente commerciale",
+            "lineItemsCommercial": "Description, Code SH, Quantité, Prix Unitaire, Total...",
+            "declaration": "Je déclare que les informations ci-dessus sont vraies et correctes...",
+            "requiredDocs": "par ex., Facture Commerciale, Connaissement, Certificat d'Origine...",
+            "packageDetails": "Entrez les détails du colis. Format : Marques et numéros, Nombre de colis, Description, Poids net, Poids brut.",
+            "paymentTerms": "par ex., 30 jours à compter de la date de facturation"
+        }
+    },
+    "tradeFinance": {
+        "pageTitle": "Alimentez Votre Croissance avec un Financement Commercial sur Mesure",
+        "pageDescription": "Accédez au capital dont vous avez besoin pour saisir les opportunités mondiales. Nos solutions sont rapides, flexibles et conçues pour les exportateurs africains.",
+        "totalFunded": "Total Financé",
+        "activeClients": "Clients Actifs",
+        "avgApproval": "Approbation Moy.",
+        "successRate": "Taux de Réussite",
+        "startApplication": "Commencer la Demande",
+        "compareOptions": "Comparer les Options",
+        "chooseOptionTitle": "Choisissez une Option de Financement",
+        "chooseOptionDescription": "Sélectionnez la solution de financement qui correspond le mieux aux besoins de votre entreprise. Chaque option est conçue pour répondre à différentes étapes du cycle commercial.",
+        "comparisonTitle": "Comparer les Options de Financement Commercial",
+        "comparisonDescription": "Examinez les principales caractéristiques de chaque option pour prendre une décision éclairée.",
+        "applyFor": "Demander un(e) {{option}}",
+        "applicationSubmitted": "Demande Soumise !",
+        "applicationSuccessMessage": "Votre demande de {{option}} a été soumise avec succès. Notre équipe l'examinera et vous répondra dans les 48 heures.",
+        "backToTradeFinance": "Retour au Financement",
+        "companyName": "Nom de l'entreprise",
+        "requestedAmount": "Montant demandé (USD)",
+        "uploadDocuments": "Télécharger les documents justificatifs",
+        "uploadPrompt": "Glissez-déposez les fichiers ici ou cliquez pour sélectionner",
+        "submitApplication": "Soumettre la Demande",
+        "options": {
+            "factoring": {
+                "title": "Affacturage de Factures",
+                "description": "Débloquez immédiatement les liquidités de vos factures impayées."
+            },
+            "exportFinance": {
+                "title": "Financement à l'Exportation",
+                "description": "Financement avant et après expédition."
+            },
+            "supplyChainFinance": {
+                "title": "Financement de la Chaîne d'Approvisionnement",
+                "description": "Optimisez les flux de trésorerie pour vous et vos fournisseurs."
+            },
+            "importFinance": {
+                "title": "Financement à l'Importation",
+                "description": "Financez l'achat de marchandises pour l'importation."
+            },
+            "nonInterestFinance": {
+                "title": "Financement sans Intérêt",
+                "description": "Solutions de financement commercial conformes à la Charia."
+            },
+            "startupTradeFinance": {
+                "title": "Financement pour Startups",
+                "description": "Financement pour les nouvelles entreprises entrant dans le commerce mondial."
+            }
+        },
+        "comparison": {
+            "type": "Type",
+            "processTime": "Délai de traitement",
+            "maxAmount": "Montant max.",
+            "interestRate": "Taux d'intérêt",
+            "term": "Durée",
+            "data": {
+                "factoring": {
+                    "processTime": "24-72 Heures",
+                    "interestRate": "1-3% par Facture",
+                    "term": "Jusqu'à 120 Jours"
+                },
+                "exportFinance": {
+                    "processTime": "3-5 Jours Ouvrables",
+                    "interestRate": "5-10% p.a.",
+                    "term": "Jusqu'à 180 Jours"
+                },
+                "supplyChainFinance": {
+                    "processTime": "2-4 Jours Ouvrables",
+                    "interestRate": "Varie par Fournisseur",
+                    "term": "Jusqu'à 180 Jours"
+                },
+                "importFinance": {
+                    "processTime": "5-7 Jours Ouvrables",
+                    "interestRate": "6-12% p.a.",
+                    "term": "Jusqu'à 120 Jours"
+                },
+                "nonInterestFinance": {
+                    "processTime": "3-5 Jours Ouvrables",
+                    "interestRate": "Modèle de partage des bénéfices",
+                    "term": "Variable"
+                },
+                "startupTradeFinance": {
+                    "processTime": "7-10 Jours Ouvrables",
+                    "interestRate": "8-15% p.a.",
+                    "term": "Jusqu'à 90 Jours"
+                },
+                "documentation": {
+                    "low": "Faible",
+                    "medium": "Moyenne",
+                    "high": "Élevée",
+                    "lowMedium": "Faible à Moyenne"
+                }
+            },
+            "bestFor": {
+                "factoring": "Trésorerie rapide",
+                "exportFinance": "Financement des commandes à l'export",
+                "supplyChainFinance": "Grandes entreprises",
+                "importFinance": "Paiement des fournisseurs étrangers",
+                "nonInterestFinance": "Financement éthique",
+                "startupTradeFinance": "Nouveaux exportateurs"
+            }
+        }
+    },
+    "marketplace": {
+        "title": "Place de Marché Mondiale",
+        "pageTitle": "Découvrez des Opportunités Mondiales",
+        "pageDescription": "Connectez-vous avec des acheteurs et des fournisseurs vérifiés de tout le continent et du monde. Toutes les annonces proviennent de membres de confiance du réseau DTFS.",
+        "searchPlaceholder": "Rechercher des produits comme 'noix de cajou', 'beurre de karité'...",
+        "sortBy": "Trier par...",
+        "sortByOptions": {
+            "newest": "Les plus récents",
+            "nameAsc": "Nom (A-Z)",
+            "nameDesc": "Nom (Z-A)",
+            "priceAsc": "Prix (Croissant)",
+            "priceDesc": "Prix (Décroissant)"
+        },
+        "categories": {
+            "all": "Toutes les Catégories",
+            "agriculture": "Agriculture",
+            "textiles": "Textiles",
+            "minerals": "Minéraux",
+            "handicrafts": "Artisanat",
+            "cosmetics": "Cosmétiques"
+        },
+        "showingProducts": "Affichage de {{count}} produits",
+        "verifiedSeller": "Vendeur Vérifié",
+        "exporterId": "ID Exportateur :",
+        "perUnit": "/ unité",
+        "contactSeller": "Contacter le Vendeur"
+    },
+    "training": {
+        "title": "Centre de Formation",
+        "description": "Améliorez vos connaissances commerciales avec nos cours dirigés par des experts.",
+        "viewAll": "Voir tous les cours",
+        "progress": "Progression",
+        "hours": "{{count}} heures",
+        "certificate": "Certificat",
+        "levels": {
+            "beginner": "Débutant",
+            "intermediate": "Intermédiaire",
+            "advanced": "Avancé"
+        },
+        "courses": {
+            "exportMastery": {
+                "title": "Maîtrise de l'Export 101",
+                "description": "Apprenez les fondamentaux de l'exportation depuis l'Afrique."
+            },
+            "customsRegs": {
+                "title": "Naviguer les Douanes",
+                "description": "Comprendre les réglementations et la documentation."
+            },
+            "tradeFinance": {
+                "title": "Essentiels du Financement Commercial",
+                "description": "Maîtrisez les aspects financiers du commerce mondial."
+            }
+        }
+    },
+    "productManagement": {
+        "title": "Gestion des Produits",
+        "description": "Gérez vos annonces de produits et votre inventaire.",
+        "addNew": "Ajouter un Produit",
+        "searchPlaceholder": "Rechercher par nom de produit...",
+        "product": "Produit",
+        "price": "Prix",
+        "stock": "Stock",
+        "noProductsTitle": "Aucun produit pour le moment",
+        "noProductsDescription": "Cliquez sur 'Ajouter un Produit' pour créer votre première annonce.",
+        "modal": {
+            "editTitle": "Modifier le Produit",
+            "addTitle": "Ajouter un Nouveau Produit",
+            "productName": "Nom du Produit",
+            "description": "Description",
+            "imageUrl": "URL de l'Image",
+            "status": {
+                "active": "Actif (Visible sur la Place de Marché)",
+                "draft": "Brouillon (Caché de la Place de Marché)"
+            },
+            "aiGeneratorTitle": "Générer avec l'IA",
+            "aiGeneratorDescription": "Décrivez votre produit en quelques mots et laissez l'IA remplir les détails et créer une image.",
+            "aiPromptPlaceholder": "ex: 'beurre de karité de haute qualité du Ghana'",
+            "generate": "Générer"
+        },
+        "toast": {
+            "saveSuccessTitle": "Produit Enregistré",
+            "saveSuccessDescription": "'{{name}}' a été enregistré avec succès.",
+            "deleteSuccessTitle": "Produit Supprimé",
+            "deleteSuccessDescription": "'{{name}}' a été supprimé avec succès."
+        }
+    },
+    "orderManagement": {
+        "title": "Gestion des Commandes",
+        "description": "Suivez et gérez toutes vos commandes entrantes.",
+        "tableView": "Vue Tableau",
+        "boardView": "Vue Kanban",
+        "searchPlaceholder": "Rechercher par ID de commande ou client...",
+        "orderId": "ID Commande",
+        "customer": "Client",
+        "product": "Produit",
+        "date": "Date",
+        "amount": "Montant",
+        "markAs": "Marquer comme {{status}}",
+        "noOrdersTitle": "Aucune Commande Pour le Moment",
+        "noOrdersDescription": "Vos commandes entrantes apparaîtront ici.",
+        "noOrdersInStatus": "Aucune commande dans ce statut.",
+        "statuses": {
+            "Pending": "En attente",
+            "Processing": "En traitement",
+            "Shipped": "Expédiée",
+            "Delivered": "Livrée"
+        },
+        "toast": {
+            "statusChangeTitle": "Statut de Commande Mis à Jour",
+            "statusChangeDescription": "La commande {{id}} a été marquée comme {{status}}."
+        }
+    },
+    "productDiscovery": {
+        "title": "Découverte de Produits par IA",
+        "pageTitle": "Trouvez Votre Prochain Bestseller",
+        "pageDescription": "Décrivez ce que vous recherchez, et notre IA explorera la place de marché pour trouver les produits les plus pertinents pour votre entreprise.",
+        "searchPlaceholder": "ex: 'grains de café issus du commerce équitable', 'sacs en cuir faits main d'Éthiopie'",
+        "loading": "L'IA recherche sur la place de marché pour vous...",
+        "showingResults": "- {{count}} recommandations basées sur votre requête.",
+        "noResultsTitle": "Aucune Correspondance Trouvée",
+        "noResultsDescription": "Notre IA n'a pas pu trouver de correspondance directe. Essayez d'élargir vos termes de recherche."
+    },
+    "supplierManagement": {
+        "title": "Gestion des Fournisseurs",
+        "description": "Gérez vos relations avec les fournisseurs.",
+        "searchPlaceholder": "Rechercher par nom ou lieu...",
+        "supplier": "Fournisseur",
+        "location": "Lieu",
+        "rating": "Évaluation",
+        "products": "Produits",
+        "viewProducts": "Voir les produits",
+        "viewContracts": "Voir les contrats",
+        "markPreferred": "Marquer comme préféré",
+        "setActive": "Rendre actif",
+        "blockSupplier": "Bloquer le fournisseur",
+        "statuses": {
+            "Preferred": "Préféré",
+            "Active": "Actif",
+            "Blocked": "Bloqué"
+        }
+    },
+    "orderPlacement": {
+        "title": "Passer une Nouvelle Commande",
+        "description": "Sélectionnez un produit et une quantité pour créer une nouvelle commande commerciale.",
+        "selectProduct": "Sélectionner un Produit",
+        "chooseProduct": "Choisissez un produit...",
+        "quantity": "Quantité",
+        "estimatedTotal": "Total Estimé",
+        "placeOrder": "Passer la Commande",
+        "successTitle": "Commande Passée avec Succès !",
+        "successDescription": "Votre commande a été envoyée à l'exportateur. Vous pouvez suivre son statut dans la section Gestion des Commandes.",
+        "placeAnother": "Passer une Autre Commande"
+    },
+    "qualityControl": {
+        "title": "Contrôle Qualité",
+        "description": "Surveillez le statut d'inspection de vos commandes.",
+        "orderId": "ID Commande",
+        "orderDate": "Date Commande",
+        "qualityStatus": "Statut Qualité",
+        "requestInspection": "Demander une Inspection",
+        "statuses": {
+            "notinspected": "Non Inspecté",
+            "pending": "En Attente",
+            "passed": "Accepté",
+            "failed": "Échoué"
+        }
+    },
+    "requestInspection": {
+        "title": "Demander une Inspection Qualité",
+        "description": "Soumettez une commande pour une inspection d'assurance qualité par un tiers certifié.",
+        "orderId": "ID de la Commande",
+        "orderIdPlaceholder": "Entrez l'ID de la commande (ex: TRD-2024-003)",
+        "additionalNotes": "Notes Supplémentaires (Optionnel)",
+        "notesPlaceholder": "ex: Veuillez vérifier la teneur en humidité et la consistance de la taille des noix.",
+        "submitRequest": "Soumettre la Demande",
+        "error": "Veuillez entrer un ID de commande valide et non inspecté.",
+        "successTitle": "Inspection Demandée",
+        "successDescription": "Une inspection qualité a été programmée pour la commande {{orderId}}. Vous serez informé des résultats.",
+        "requestAnother": "Demander une Autre Inspection"
+    },
+    "contractManagement": {
+        "title": "Gestion des Contrats",
+        "description": "Visualisez et gérez tous vos contrats commerciaux.",
+        "contractId": "ID Contrat",
+        "supplier": "Fournisseur",
+        "document": "Document",
+        "viewDocument": "Voir le Document"
+    },
+    "shipmentManagement": {
+        "title": "Gestion des Expéditions",
+        "description": "Suivez et gérez toutes les expéditions sortantes et entrantes.",
+        "createShipment": "Créer une Expédition",
+        "searchPlaceholder": "Rechercher par ID Expédition, ID Commande, ou N° de Suivi",
+        "shipmentOrderId": "Expédition / ID Commande",
+        "route": "Itinéraire",
+        "carrier": "Transporteur",
+        "eta": "Livraison Est.",
+        "noShipmentsTitle": "Aucune Expédition",
+        "noShipmentsDescription": "Créez une nouvelle expédition pour commencer.",
+        "modal": {
+            "editTitle": "Modifier l'Expédition",
+            "addTitle": "Créer une Nouvelle Expédition",
+            "orderId": "ID de Commande",
+            "selectOrder": "Sélectionnez une commande...",
+            "origin": "Origine",
+            "originPlaceholder": "ex: Accra, Ghana",
+            "destination": "Destination",
+            "destinationPlaceholder": "ex: Lagos, Nigeria",
+            "carrier": "Transporteur",
+            "carrierPlaceholder": "ex: Maersk",
+            "estimatedDelivery": "Livraison Estimée",
+            "saveShipment": "Enregistrer l'Expédition"
+        }
+    },
+    "routePlanning": {
+        "title": "Planification d'Itinéraire",
+        "description": "Assignez des véhicules et des chauffeurs aux expéditions en attente.",
+        "optimizeWithAI": "Optimiser avec l'IA",
+        "optimizing": "Optimisation...",
+        "awaitingRoute": "En Attente d'Assignation",
+        "activeRoutes": "Itinéraires Actifs",
+        "noAwaiting": "Aucune expédition n'attend d'assignation.",
+        "noAwaitingAfterAI": "Toutes les expéditions en attente ont été assignées par l'IA.",
+        "assignRoute": "Assigner Itinéraire",
+        "aiSuggestedPlan": "Plan Suggéré par l'IA",
+        "aiPlanDescription": "Révisez les assignations optimales suggérées par l'IA. Vous pouvez tout confirmer ou assigner manuellement.",
+        "discard": "Annuler",
+        "confirmPlan": "Confirmer le Plan",
+        "modal": {
+            "title": "Assigner un itinéraire pour {{shipmentId}}",
+            "route": "Itinéraire :",
+            "selectVehicle": "Véhicule",
+            "chooseVehicle": "Choisissez un véhicule...",
+            "selectDriver": "Chauffeur",
+            "chooseDriver": "Choisissez un chauffeur..."
+        }
+    },
+    "fleetManagement": {
+        "title": "Gestion de Flotte",
+        "description": "Gérez vos véhicules et chauffeurs.",
+        "vehicles": "Véhicules ({{count}})",
+        "drivers": "Chauffeurs ({{count}})",
+        "addVehicle": "Ajouter Véhicule",
+        "addDriver": "Ajouter Chauffeur",
+        "tableHeaders": {
+            "vehicleName": "Nom du Véhicule",
+            "type": "Type",
+            "driverName": "Nom du Chauffeur",
+            "license": "N° de Permis"
+        },
+        "modal": {
+            "editVehicle": "Modifier le Véhicule",
+            "addVehicle": "Ajouter un Nouveau Véhicule",
+            "saveVehicle": "Enregistrer le Véhicule",
+            "editDriver": "Modifier le Chauffeur",
+            "addDriver": "Ajouter un Nouveau Chauffeur",
+            "saveDriver": "Enregistrer le Chauffeur",
+            "placeholders": {
+                "vehicleName": "ex: Camion de Fret 1",
+                "driverName": "ex: Musa Traore",
+                "license": "ex: GH-12345"
+            }
+        }
+    },
+    "logisticsDocumentation": {
+        "title": "Documentation Logistique",
+        "description": "Gérez tous les documents liés à l'expédition.",
+        "addDocument": "Ajouter un Document",
+        "docId": "ID Doc",
+        "type": "Type",
+        "shipmentId": "ID Expédition",
+        "modal": {
+            "title": "Créer un Nouveau Document",
+            "docTypes": {
+                "bol": "Connaissement",
+                "ci": "Facture Commerciale",
+                "pl": "Liste de Colisage",
+                "coo": "Certificat d'Origine"
+            },
+            "selectShipment": "Sélectionner une expédition",
+            "uploadFile": "Télécharger un Fichier",
+            "uploadPrompt": "Glissez-déposez ou cliquez pour télécharger"
+        }
+    },
+    "communication": {
+        "title": "Communication d'Expédition",
+        "updatesFor": "Mises à jour pour {{shipmentId}}",
+        "toParties": "À : Exportateur, Acheteur, Agent",
+        "placeholder": "Envoyer une mise à jour à toutes les parties...",
+        "noSelection": "Sélectionnez une expédition pour voir les communications."
+    },
+    "pricingAndQuotes": {
+        "title": "Tarifs & Devis",
+        "description": "Créez et gérez les devis de fret pour les clients.",
+        "createQuote": "Créer un Devis",
+        "quoteId": "ID Devis",
+        "customer": "Client",
+        "route": "Itinéraire",
+        "totalCost": "Coût Total",
+        "modal": {
+            "title": "Créer un Nouveau Devis",
+            "customerName": "Nom du Client",
+            "origin": "Origine",
+            "destination": "Destination",
+            "freightCost": "Coût du Fret",
+            "insuranceCost": "Coût de l'Assurance",
+            "saveQuote": "Enregistrer le Devis"
+        }
+    },
+    "insuranceManagement": {
+        "title": "Gestion des Assurances",
+        "description": "Déposez et suivez les réclamations d'assurance pour les expéditions.",
+        "fileClaim": "Déposer une Réclamation",
+        "claimId": "ID Réclamation",
+        "shipmentId": "ID Expédition",
+        "amount": "Montant",
+        "modal": {
+            "title": "Déposer une Nouvelle Réclamation d'Assurance",
+            "selectShipment": "Sélectionner l'expédition",
+            "reason": "Motif de la réclamation",
+            "claimAmount": "Montant de la réclamation (USD)",
+            "submitClaim": "Soumettre la Réclamation"
+        }
+    },
+    "customsClearance": {
+        "title": "Dédouanement",
+        "description": "Gérez les déclarations en douane.",
+        "newFiling": "Nouvelle Déclaration",
+        "filingId": "ID Déclaration",
+        "shipmentId": "ID Expédition",
+        "dutyAmount": "Montant des Droits",
+        "modal": {
+            "title": "Nouvelle Déclaration en Douane",
+            "selectShipment": "Sélectionner l'expédition pour la déclaration",
+            "declarationNumber": "Numéro de Déclaration",
+            "dutyAmount": "Montant des droits (USD)",
+            "submitFiling": "Soumettre la Déclaration"
+        }
+    },
+    "clientManagement": {
+        "title": "Gestion des Clients",
+        "description": "Visualisez et gérez votre portefeuille de clients.",
+        "addClient": "Ajouter un Client",
+        "searchPlaceholder": "Rechercher par nom ou lieu du client...",
+        "name": "Nom",
+        "type": "Type",
+        "location": "Lieu",
+        "joinDate": "Date d'inscription",
+        "noClientsTitle": "Aucun Client Pour le Moment",
+        "noClientsDescription": "Cliquez sur 'Ajouter un Client' pour commencer à construire votre portefeuille.",
+        "modal": {
+            "editTitle": "Modifier le Client",
+            "addTitle": "Ajouter un Nouveau Client",
+            "clientName": "Nom du Client",
+            "clientType": "Type de Client",
+            "saveClient": "Enregistrer le Client",
+            "types": {
+                "exporter": "Exportateur",
+                "buyer": "Acheteur",
+                "farmer": "Agriculteur"
+            }
+        }
+    },
+    "commissionTracking": {
+        "title": "Suivi des Commissions",
+        "description": "Surveillez vos commissions gagnées et en attente.",
+        "totalEarned": "Total Gagné",
+        "totalPaid": "Total Payé",
+        "pendingPayout": "Paiement en Attente",
+        "paid": "Payé",
+        "unpaid": "Impayé",
+        "orderId": "ID Commande",
+        "clientName": "Nom du Client",
+        "amount": "Montant",
+        "date": "Date"
+    },
+    "localSupport": {
+        "title": "Centre de Support Local",
+        "description": "Fournissez de l'aide et gérez les tickets de support pour vos clients.",
+        "createTicket": "Créer un Ticket",
+        "myTickets": "Mes Tickets ({{count}})",
+        "ticketId": "ID Ticket",
+        "client": "Client",
+        "issue": "Problème",
+        "noTicketsTitle": "Aucun Ticket de Support",
+        "noTicketsDescription": "Les tickets de support de vos clients apparaîtront ici.",
+        "modal": {
+            "title": "Créer un Nouveau Ticket de Support",
+            "selectClient": "Sélectionner un Client",
+            "chooseClient": "Choisissez un client...",
+            "describeIssue": "Décrire le Problème",
+            "issuePlaceholder": "Expliquez brièvement le problème du client..."
+        }
+    },
+    "marketDevelopment": {
+        "title": "Aperçus du Développement de Marché",
+        "description": "Utilisez notre IA pour découvrir de nouvelles opportunités de marché pour les produits et industries.",
+        "searchPlaceholder": "Entrez un produit ou une industrie (ex: 'mangues séchées', 'industrie textile')",
+        "getOpportunities": "Obtenir des Opportunités",
+        "generating": "Génération...",
+        "opportunitiesTitle": "Opportunités Générées par l'IA",
+        "loading": "L'IA analyse les données du marché...",
+        "highPotential": "Haut Potentiel",
+        "noOpportunities": "Entrez un produit ou une industrie ci-dessus pour trouver des opportunités de marché."
+    },
+    "basicAnalytics": {
+        "title": "Analyses de l'Agent",
+        "description": "Obtenez un aperçu de base de l'acquisition et de la performance de vos clients.",
+        "regionalSignups": "Inscriptions Régionales (30 derniers jours)",
+        "activityBreakdown": "Répartition de l'Activité",
+        "activeClients": "Clients Actifs",
+        "activeClientsDesc": "{{percent}}% de votre portefeuille",
+        "topPerforming": "Client le Plus Performant",
+        "placeholder": "Les données du graphique seront affichées ici."
+    },
+    "userManagement": {
+        "title": "Gestion des Utilisateurs",
+        "description": "Gérez tous les utilisateurs de la plateforme.",
+        "searchPlaceholder": "Rechercher par nom, e-mail, ou rôle...",
+        "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet utilisateur ?",
+        "suspend": "Suspendre",
+        "noUsersTitle": "La recherche n'a retourné aucun utilisateur",
+        "noUsersDescription": "Essayez une autre requête de recherche.",
+        "tableHeaders": {
+            "user": "Utilisateur",
+            "role": "Rôle"
+        },
+        "modal": {
+            "title": "Modifier le Rôle de l'Utilisateur",
+            "editingUser": "Modification de l'utilisateur :",
+            "saveRole": "Enregistrer le Rôle"
+        }
+    },
+    "roleManagement": {
+        "title": "Gestion des Rôles et Permissions",
+        "description": "Configurez les permissions pour chaque rôle d'utilisateur sur la plateforme.",
+        "permission": "Permission",
+        "role": "Rôle"
+    },
+    "systemConfiguration": {
+        "title": "Configuration du Système",
+        "description": "Ajustez les paramètres globaux de la plateforme.",
+        "userSettings": "Paramètres Utilisateur et Authentification",
+        "enableRegistrations": "Activer les Inscriptions d'Utilisateurs",
+        "enableRegistrationsDesc": "Permettre aux nouveaux utilisateurs de s'inscrire sur la plateforme.",
+        "requireVerification": "Exiger la Vérification par E-mail",
+        "requireVerificationDesc": "Les nouveaux utilisateurs doivent vérifier leur e-mail avant de se connecter.",
+        "enforceStrongPasswords": "Imposer des Mots de Passe Forts",
+        "enforceStrongPasswordsDesc": "Exiger que les mots de passe respectent des critères de complexité.",
+        "financialSettings": "Paramètres Financiers",
+        "commissionRate": "Taux de Commission de la Plateforme",
+        "commissionRateDesc": "Le pourcentage de frais prélevé sur les transactions terminées.",
+        "enablePapss": "Activer l'Intégration PAPSS",
+        "enablePapssDesc": "Permettre les paiements transfrontaliers via le réseau PAPSS."
+    },
+    "contentModeration": {
+        "title": "Modération de Contenu",
+        "description": "Révisez et approuvez ou rejetez le contenu soumis par les utilisateurs.",
+        "pendingReview": "En Attente de Révision ({{count}})",
+        "submittedBy": "Soumis par {{name}} le {{date}}",
+        "approve": "Approuver",
+        "reject": "Rejeter",
+        "emptyQueue": "La file de modération est vide."
+    },
+    "disputeResolution": {
+        "title": "Centre de Résolution des Litiges",
+        "description": "Médiatisez et résolvez les litiges entre utilisateurs.",
+        "disputeId": "ID Litige",
+        "orderId": "ID Commande",
+        "parties": "Parties",
+        "reason": "Motif",
+        "reviewCase": "Examiner le Cas",
+        "modal": {
+            "title": "Examiner le Litige : {{disputeId}}",
+            "partiesLabel": "Parties Impliquées",
+            "reasonLabel": "Motif du Litige",
+            "dateFiledLabel": "Date de Dépôt",
+            "currentStatusLabel": "Statut Actuel",
+            "aiAnalysis": "Analyse par IA",
+            "aiDescription": "Laissez notre IA analyser le cas et l'historique de la conversation pour fournir un résumé neutre et une résolution suggérée.",
+            "aiError": "Erreur lors de l'analyse par l'IA. Veuillez examiner manuellement.",
+            "aiErrorSuggestion": "Examen manuel requis.",
+            "analyzeButton": "Analyser avec l'IA",
+            "summary": "Résumé",
+            "keyPoints": "Points Clés",
+            "suggestedResolution": "Résolution Suggérée",
+            "markInReview": "Marquer comme En Révision",
+            "markResolved": "Marquer comme Résolu"
+        }
+    },
+    "financialOversight": {
+        "title": "Surveillance Financière",
+        "description": "Surveillez la santé financière et les transactions de la plateforme.",
+        "totalVolume": "Volume Commercial Total (30j)",
+        "platformRevenue": "Revenu de la Plateforme (30j)",
+        "pendingPayouts": "Paiements en Attente",
+        "recentTransactions": "Transactions Récentes de la Plateforme",
+        "transactionId": "ID Transaction",
+        "type": "Type",
+        "amount": "Montant"
+    },
+    "analyticsAccess": {
+        "title": "Analyses de la Plateforme",
+        "description": "Accédez à des analyses détaillées et des tableaux de bord de données.",
+        "userGrowth": "Croissance des Utilisateurs",
+        "tradeVolume": "Volume Commercial par Pays",
+        "placeholder": "Espace réservé pour le graphique d'analyse"
+    },
+    "securityManagement": {
+        "title": "Gestion de la Sécurité",
+        "description": "Surveillez les événements de sécurité et les journaux d'audit.",
+        "auditLog": "Journal d'Audit de Sécurité",
+        "event": "Événement",
+        "user": "Utilisateur",
+        "ipAddress": "Adresse IP",
+        "time": "Heure",
+        "statuses": {
+            "success": "Succès",
+            "failed": "Échec"
+        }
+    },
+    "complianceMonitoring": {
+        "title": "Surveillance de la Conformité",
+        "description": "Assurez-vous que la plateforme respecte toutes les exigences réglementaires.",
+        "complianceStatus": "Statut de Conformité",
+        "lastChecked": "Dernière vérification : {{date}}",
+        "recheck": "Revérifier",
+        "items": {
+            "aml": "LBC (Lutte contre le blanchiment d'argent)",
+            "kyc": "KYC (Connaissance du client)",
+            "gdpr": "Protection des données RGPD",
+            "afcfta": "Réglementations commerciales de la ZLECAf"
+        }
+    },
+    "systemMaintenance": {
+        "title": "Maintenance du Système",
+        "description": "Contrôlez l'état du système et le mode de maintenance.",
+        "maintenanceMode": "Mode Maintenance",
+        "enableMaintenance": "Activer le Mode Maintenance",
+        "enableMaintenanceDesc": "Met la plateforme hors ligne pour tous les utilisateurs non-administrateurs.",
+        "maintenanceMessage": "Message de Maintenance",
+        "maintenanceMessageDesc": "Message affiché aux utilisateurs pendant la maintenance.",
+        "defaultMessage": "La plateforme est actuellement en maintenance programmée. Nous nous excusons pour tout inconvénient et serons de retour en ligne sous peu.",
+        "saveMessage": "Enregistrer le Message"
+    },
+    "profile": {
+        "role": "Rôle :",
+        "badgesTitle": "Badges Commerciaux",
+        "badgesDescription": "Vos accomplissements et vérifications sur la plateforme.",
+        "noBadges": "Effectuez plus d'échanges et vérifiez votre profil pour gagner des badges.",
+        "summaryTitle": "Résumé de Profil Généré par IA",
+        "summaryDescription": "Laissez l'IA créer un résumé professionnel basé sur votre activité.",
+        "generateSummary": "Générer un Résumé",
+        "summaryError": "Impossible de générer le résumé pour le moment.",
+        "badges": {
+            "verified": "Membre Vérifié",
+            "topSeller": "Meilleur Vendeur",
+            "crossBorder": "Expert Transfrontalier",
+            "compliant": "Acheteur Conforme",
+            "financeApproved": "Financement Approuvé"
+        }
+    },
+    "esg": {
+        "title": "Hub ESG",
+        "description": "Surveillez et améliorez votre score Environnemental, Social et de Gouvernance.",
+        "environmental": "Critères Environnementaux",
+        "social": "Critères Sociaux",
+        "governance": "Critères de Gouvernance",
+        "criteria": {
+            "env1": {
+                "name": "Suivi de l'Empreinte Carbone",
+                "desc": "Rapporter et suivre régulièrement les émissions de carbone de la production et du transport."
+            },
+            "env2": {
+                "name": "Approvisionnement Durable",
+                "desc": "Les matières premières proviennent de fournisseurs durables certifiés."
+            },
+            "env3": {
+                "name": "Programme de Réduction des Déchets",
+                "desc": "Programme actif pour réduire, réutiliser et recycler les déchets."
+            },
+            "soc1": {
+                "name": "Pratiques de Travail Équitables",
+                "desc": "Conformité avec les normes internationales du travail équitable."
+            },
+            "soc2": {
+                "name": "Engagement Communautaire",
+                "desc": "Programmes d'investissement et d'engagement actifs dans la communauté locale."
+            },
+            "soc3": {
+                "name": "Normes de Santé et Sécurité",
+                "desc": "Mise en œuvre de normes de santé et de sécurité au travail certifiées."
+            },
+            "gov1": {
+                "name": "Gouvernance Transparente",
+                "desc": "Politiques de gouvernance d'entreprise et d'éthique accessibles au public."
+            },
+            "gov2": {
+                "name": "Politique Anti-Corruption",
+                "desc": "Une politique formelle et appliquée de lutte contre la corruption et les pots-de-vin."
+            }
+        },
+        "statuses": {
+            "Certified": "Certifié",
+            "InProgress": "En Cours",
+            "NotStarted": "Non Commencé"
+        },
+        "greenFinance": {
+            "title": "Opportunités de Finance Verte",
+            "description": "Accédez à des financements spéciaux pour vos initiatives écologiques.",
+            "applyNow": "Postuler maintenant",
+            "options": {
+                "agriLoan": {
+                    "title": "Prêt pour l'Agriculture Durable",
+                    "desc": "Financement pour l'agriculture biologique et les pratiques de récolte durables."
+                },
+                "renewableEnergy": {
+                    "title": "Mise à Niveau Énergie Renouvelable",
+                    "desc": "Financez des panneaux solaires ou d'autres sources d'énergie renouvelable pour vos installations."
+                },
+                "ecoPackaging": {
+                    "title": "Fonds pour l'Emballage Écologique",
+                    "desc": "Soutien pour la transition vers des matériaux d'emballage biodégradables ou recyclés."
+                }
+            }
+        },
+        "ecoLearning": {
+            "title": "Hub d'Apprentissage ÉCO",
+            "description": "Développez vos connaissances sur les pratiques durables et les certifications vertes.",
+            "goToTraining": "Aller au Hub de Formation"
+        }
+    },
+    "userOnboarding": {
+        "title": "Complétez la Vérification de Votre Profil",
+        "description": "Pour garantir la sécurité et l'intégrité de notre plateforme, nous demandons à tous les nouveaux membres de compléter ce processus de vérification.",
+        "step1": "Confirmer les Détails",
+        "step2": "Télécharger les Documents",
+        "step3": "Réviser et Soumettre",
+        "formTitle": "Confirmez Vos Détails",
+        "nameLabel": "Nom Complet",
+        "emailLabel": "E-mail",
+        "roleLabel": "Rôle",
+        "kycTitle": "Télécharger les Documents de Vérification",
+        "kycDocs": {
+            "bizReg": "Document d'Enregistrement de l'Entreprise",
+            "idProof": "Preuve d'Identité (Directeur/Propriétaire)",
+            "addrProof": "Preuve d'Adresse (Facture de services publics)",
+            "taxCert": "Certificat de Dédouanement Fiscal"
+        },
+        "reviewTitle": "Réviser et Soumettre",
+        "docsUploaded": "{{name}} téléchargé",
+        "submitVerification": "Soumettre pour Vérification",
+        "successTitle": "Vérification Soumise !",
+        "successDescription": "Merci, {{name}}. Vos documents ont été soumis pour examen. Vous recevrez une notification une fois le processus terminé (généralement dans les 24 heures). Vous avez maintenant un accès complet à votre tableau de bord.",
+        "goToDashboard": "Aller au Tableau de Bord"
+    },
+    "maintenance": {
+        "title": "En Maintenance",
+        "description": "La plateforme est actuellement en maintenance programmée. Nous nous excusons pour tout inconvénient et serons de retour en ligne sous peu."
+    },
+    "notifications": {
+        "title": "Notifications",
+        "markAllRead": "Tout marquer comme lu",
+        "noNotifications": "Aucune nouvelle notification",
+        "viewAll": "Voir toutes les notifications"
+    },
+    "notification": {
+        "doc": {
+            "title": "Document Requis",
+            "desc": "Un nouveau document est requis pour l'expédition SHP-002."
+        },
+        "system": {
+            "title": "Mise à Jour du Profil",
+            "desc": "Veuillez compléter les informations de votre profil."
+        },
+        "payment": {
+            "title": "Escrow Financé",
+            "desc": "Les fonds pour la commande TRD-2024-003 sont maintenant en escrow."
+        }
+    },
+    "wallet": {
+        "pageTitle": "Portefeuille Numérique & Finance",
+        "pageDescription": "Gérez vos fonds, suivez les transactions et accédez aux services financiers.",
+        "totalBalance": "Solde Total",
+        "inEscrow": "En Escrow",
+        "monthlyProfit": "Bénéfice Mensuel",
+        "activeTrades": "{{count}} transactions actives",
+        "deposit": "Dépôt",
+        "send": "Envoyer",
+        "swap": "Échanger",
+        "bridge": "Pont",
+        "overview": "Aperçu",
+        "transactions": "Transactions",
+        "exchange": "Change",
+        "settings": "Paramètres",
+        "tabs": {
+            "tradePassport": "Passeport Commercial"
+        },
+        "connectWallet": "Connecter un Portefeuille",
+        "wallets": {
+            "title": "Portefeuilles Crypto",
+            "metamask": "MetaMask",
+            "coinbase": "Coinbase Wallet",
+            "walletconnect": "WalletConnect"
+        },
+        "papss": {
+            "title": "PAPSS",
+            "description": "Effectuez et recevez en toute simplicité des paiements transfrontaliers dans votre monnaie locale à travers l'Afrique.",
+            "initiatePayment": "Initier un Paiement PAPSS"
+        },
+        "escrow": {
+            "title": "Accords d'Escrow",
+            "description": "Gérez les fonds détenus en escrow pour vos transactions.",
+            "createEscrow": "Créer un Nouvel Escrow",
+            "noEscrow": "Aucun accord d'escrow actif.",
+            "modal": {
+                "title": "Créer un Escrow pour la Commande",
+                "selectOrder": "Sélectionnez une commande à financer",
+                "createButton": "Créer & Financer l'Escrow"
+            },
+            "toast": {
+                "successTitle": "Escrow Créé",
+                "successDescription": "L'escrow pour la commande {{orderId}} a été créé et est en attente de fonds."
+            }
+        },
+        "passport": {
+            "noData": "Données ESG et d'accréditation non disponibles.",
+            "esgTitle": "Score de Durabilité",
+            "esgOverall": "Score Global",
+            "esgBreakdown": "Détail du Score",
+            "esgEnvironmental": "Environnemental",
+            "esgSocial": "Social",
+            "esgGovernance": "Gouvernance"
+        }
+    },
+    "search": {
+        "resultsFor": "Résultats pour '{{query}}'",
+        "noResults": "Aucun résultat trouvé.",
+        "categories": {
+            "products": "Produits",
+            "orders": "Commandes",
+            "shipments": "Expéditions",
+            "users": "Utilisateurs"
+        }
+    },
+    "common": {
+        "idLabel": "ID :",
+        "units": "unités",
+        "inStock": "en stock",
+        "details": "Détails",
+        "back": "Retour",
+        "next": "Suivant",
+        "generating": "Génération...",
+        "thinking": "Réflexion...",
+        "startOver": "Recommencer",
+        "print": "Imprimer",
+        "share": "Partager",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet élément ?",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "noAction": "Aucune action disponible",
+        "status": "Statut",
+        "date": "Date",
+        "actions": "Actions",
+        "viewDetails": "Voir les détails",
+        "selectOption": "Sélectionnez une option...",
+        "justNow": "À l'instant",
+        "loading": "Chargement..."
+    }
+}
