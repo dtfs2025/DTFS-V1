@@ -108,8 +108,16 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         kycCompleted: true, // Bypass KYC for simplicity in this flow
     };
     setUsers(prev => [...prev, newUser]);
-    login(newId, false);
-  }, [login]);
+    
+    // Directly set currentUser to avoid race condition where 'users' state hasn't updated yet for 'login' to find it.
+    // Add safety check for permissions
+    const rolePerms = rolePermissions[newUser.role];
+    if (!rolePerms) {
+        console.warn(`Warning: No permissions definitions found for role '${newUser.role}'. Defaulting to empty permissions.`);
+    }
+    const permissions = new Set(rolePerms || []);
+    setCurrentUser({ ...newUser, permissions });
+  }, [rolePermissions]);
   
   const completeKyc = useCallback(() => {
       if (!currentUser) return;
@@ -142,7 +150,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   // Effect to update current user permissions if the matrix changes while they are logged in
   useEffect(() => {
     if (currentUser) {
-      const latestPermissionsForRole = new Set(rolePermissions[currentUser.role]);
+      const permsList = rolePermissions[currentUser.role] || [];
+      const latestPermissionsForRole = new Set(permsList);
       
       // Only update if permissions have actually changed to avoid infinite loops
       const hasChanged = 
